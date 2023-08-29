@@ -1,0 +1,1989 @@
+/* rem and em do not depent html font size in media quaries. 
+Instead, 1rem = 1em =16px*/
+
+/* BELOW 1360px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 85em) {
+  .head-nav {
+    /* width: 20rem; */
+  }
+  .logo {
+    width: 9rem;
+    margin-top: 1rem;
+  }
+
+  .nav {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 38rem;
+    height: 30rem;
+  }
+
+  .section-class {
+    /* max-width: 120rem; */
+    background-color: #000;
+  }
+  .h2 {
+    font-size: 1.7rem;
+    margin-top: -1rem;
+  }
+
+  .h3 {
+    font-size: 1.3rem;
+  }
+  .container-paragraph {
+    font-size: 1.4rem;
+    margin-top: -1rem;
+  }
+  .text {
+    width: 45rem;
+    height: 31rem;
+    margin-left: 5rem;
+  }
+  .btnhome--big {
+    font-size: 1rem;
+    margin-top: -4rem;
+  }
+
+  .photo---play {
+    margin-left: 8rem;
+    max-width: 50rem;
+    height: 31rem;
+  }
+  .free {
+    height: 5rem;
+  }
+  .free-mixtapes,
+  .free-mixtapes1 {
+    font-size: 2rem;
+    padding-top: 0.4rem;
+  }
+
+  .frees-icons {
+    height: 2rem;
+    width: 2rem;
+    padding-top: 1rem;
+  }
+  .ekos-play {
+    height: 25rem;
+  }
+
+  .displays-grids {
+    background-color: #000;
+    /* margin-left: 6rem; */
+  }
+
+  /* .taking-it-home-img,
+  .coming-soon-img {
+    height: 30rem;
+  }
+  /* .ekothebeat {
+    height: 60rem;
+  }
+  .list {
+    height: 50rem;
+  } */
+  .subheading {
+    font-size: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .heading---tertiaries {
+    font-size: 2rem;
+  }
+
+  .eko-tags {
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 7rem;
+    margin-left: -5rem;
+  }
+
+  .album-title {
+    margin-left: 6rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 6rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .list-item {
+    font-size: 2rem;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .grid--3-cols {
+    margin-left: 1rem;
+  }
+  .photo----play {
+    margin-left: 8rem;
+    max-width: 50rem;
+    height: 33rem;
+  }
+  .texts {
+    width: 45rem;
+    height: 33rem;
+    margin-left: 5rem;
+  }
+
+  .buttoneko:link,
+  .buttoneko:visited {
+    font-size: 1rem;
+    margin-top: -1rem;
+  }
+  .form-text {
+    box-shadow: none;
+    margin-top: -17rem;
+  }
+  .form-paragraph {
+    font-size: 2.5rem;
+    margin-top: 29.4rem;
+    height: 31.2rem;
+  }
+  .subscribe {
+    background-color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .footer-text {
+    font-size: 2rem;
+  }
+
+  .ekothebeat {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+  }
+}
+/* BELOW 1024px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 80em) {
+  .ekothebeat {
+    height: 55rem;
+  }
+  .eko-tags {
+    margin-left: 9rem;
+    margin-top: 1rem;
+  }
+
+  .list {
+    height: 49.5rem;
+  }
+  .tag--eko {
+    margin-right: 8rem;
+    margin-left: -8rem;
+  }
+  .album-titlez {
+    /* margin-left: 1rem; */
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .album-title {
+    /* margin-left: 2rem; */
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+/* BELOW 1200px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 75em) {
+  .head-nav {
+  }
+  .wrapper {
+    max-width: 110rem;
+    position: relative;
+  }
+  .photo---play {
+    margin-left: 4rem;
+    max-width: 50rem;
+    height: 30rem;
+  }
+  .displays-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-text {
+    font-size: 1.7rem;
+  }
+}
+
+/* BELOW 1135px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 71em) {
+  .head-nav {
+  }
+  .wrapper {
+    max-width: 95rem;
+  }
+  .carousel img {
+    margin-left: 2rem;
+    width: 50rem;
+  }
+  .photo---play {
+    margin-left: 1rem;
+  }
+  .ekos-play {
+    height: 30rem;
+  }
+
+  .photo----play {
+    margin-left: 1rem;
+  }
+}
+
+/* BELOW 1042px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 69em) {
+  .head-nav {
+  }
+  .wrapper {
+    max-width: 95rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 1rem;
+  }
+  .photo---play {
+    margin-left: -0.4rem;
+  }
+  .texts {
+    margin-left: 1rem;
+  }
+  .photo----play {
+    margin-left: -0.4rem;
+  }
+}
+/* BELOW 1024px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 66em) {
+  .form-paragraph {
+    font-size: 2.3rem;
+    margin-top: 29.4rem;
+    height: 31.2rem;
+  }
+}
+
+/* BELOW 999px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 63em) {
+  .head-nav {
+  }
+  .wrapper {
+    max-width: 90rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: -1rem;
+  }
+  .photo---play {
+    margin-left: -1rem;
+  }
+  .texts {
+    margin-left: -1rem;
+  }
+  .photo----play {
+    margin-left: -1rem;
+  }
+  .displays-grids {
+    margin-left: 3rem;
+  }
+}
+/* BELOW 980px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 62em) {
+  .head-nav {
+  }
+  .wrapper {
+    max-width: 90rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: -1rem;
+  }
+  .photo---play {
+    margin-left: -1.8rem;
+  }
+  .texts {
+    margin-left: -1rem;
+  }
+  .photo----play {
+    margin-left: -1.8rem;
+  }
+  .displays-grids {
+    margin-left: 3rem;
+  }
+}
+/* BELOW 958px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 61em) {
+  .head-nav {
+    /* background-color: #1b4353; */
+  }
+  .wrapper {
+    max-width: 90rem;
+  }
+  .display--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: -1rem;
+    background-color: #1b4353;
+    padding-bottom: 3rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 23rem;
+  }
+  .photo---play {
+    margin-left: 20rem;
+  }
+  .texts {
+    margin-left: 23rem;
+  }
+  .photo----play {
+    margin-left: 20rem;
+  }
+  .displays-grids {
+    margin-left: 3rem;
+  }
+  .form-paragraph {
+    font-size: 2.2rem;
+  }
+  .footer-text {
+    font-size: 0.8rem;
+  }
+  .buttonz--big {
+    font-size: 1.4rem;
+  }
+}
+
+/* BELOW 893px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 56em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .wrapper {
+    max-width: 80rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 42rem;
+    height: 30rem;
+  }
+  .eko-tags {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 12rem;
+    margin-left: -3rem;
+    font-size: 1.6rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .buttonz--big,
+  .buttonhomes--big {
+    font-size: 1.5rem;
+  }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    height: 20rem;
+  }
+  .list {
+    height: 45rem;
+  }
+  .album-section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .album-section .grid--3-cols,
+  .play-list:last-child {
+    justify-self: center;
+  }
+
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 23rem;
+  }
+  .photo---play {
+    margin-left: 20rem;
+  }
+  .texts {
+    margin-left: 23rem;
+  }
+  .photo----play {
+    margin-left: 20rem;
+  }
+  .displays-grids {
+    margin-left: 3rem;
+  }
+  .form-paragraph {
+    font-size: 2.2rem;
+  }
+  .buttonz--big {
+    font-size: 1.4rem;
+  }
+}
+
+/* BELOW 830px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 52em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .wrapper {
+    max-width: 77rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 39rem;
+    height: 40rem;
+  }
+  .display--grid {
+    margin-left: -5rem;
+  }
+  .eko-tags {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 12rem;
+    margin-left: -3rem;
+    font-size: 1.6rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .buttonz--big,
+  .buttonhomes--big {
+    font-size: 1.5rem;
+  }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    height: 20rem;
+  }
+  .list {
+    height: 45rem;
+  }
+  .album-section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .album-section .grid--3-cols,
+  .play-list:last-child {
+    justify-self: center;
+  }
+
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 23rem;
+  }
+  .photo---play {
+    margin-left: 20rem;
+  }
+  .texts {
+    margin-left: 23rem;
+  }
+  .photo----play {
+    margin-left: 20rem;
+  }
+  .displays-grids {
+    margin-left: 3rem;
+  }
+  .form-paragraph {
+    font-size: 2rem;
+  }
+  .buttonz--big {
+    font-size: 1.4rem;
+  }
+}
+/* BELOW 806px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 51em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .wrapper {
+    max-width: 70rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 35rem;
+    height: 30rem;
+  }
+  .display--grid {
+    margin-left: -6rem;
+  }
+  .tag--eko {
+    margin-right: 6rem;
+    margin-left: -3rem;
+    font-size: 1.6rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+}
+/* BELOW 752px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 47em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .wrapper {
+    max-width: 65rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 30rem;
+    height: 30rem;
+  }
+  .photo---play {
+    margin-left: 19rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 21rem;
+  }
+  .photo----play {
+    margin-left: 19rem;
+  }
+  .texts {
+    margin-left: 21rem;
+  }
+  .form-paragraph {
+    font-size: 1.87rem;
+  }
+  .display--grid {
+    margin-left: -6rem;
+  }
+  .tag--eko {
+    margin-right: 6rem;
+    margin-left: -3rem;
+    font-size: 1.6rem;
+  }
+}
+/* BELOW 912px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 57em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .form-paragraph {
+    font-size: 1.9rem;
+  }
+}
+/* BELOW 695px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 44em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1rem;
+  }
+  .wrapper {
+    max-width: 65rem;
+  }
+
+  .display--grid {
+    margin-left: -9rem;
+  }
+  .form-paragraph {
+    font-size: 1.8rem;
+  }
+  .heading---tertiaries {
+    font-size: 1.4rem;
+  }
+  .tag--eko {
+    margin-right: 4rem;
+    margin-left: -3rem;
+    font-size: 1.6rem;
+  }
+  .album-title {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  #waveform {
+    width: 30rem;
+  }
+  .volume-control {
+    margin-left: 1rem;
+  }
+  .preview-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 30%;
+    font-size: 1rem;
+  }
+}
+/* BELOW 683px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 43em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 62rem;
+  }
+  .ekos-play {
+    height: 25rem;
+  }
+  .buttonz--big {
+    font-size: 1.3rem;
+  }
+  .list-item {
+    font-size: 1.5rem;
+  }
+  .display--grid {
+    margin-left: -9rem;
+  }
+  .form-paragraph {
+    font-size: 1.8rem;
+  }
+}
+
+/* BELOW 652px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 41em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 61rem;
+  }
+  .album-titlez {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .buttonhomes--big {
+    font-size: 1.2rem;
+  }
+  .buttonz--big {
+    font-size: 1.1rem;
+  }
+  .display--grid {
+    margin-left: -12rem;
+  }
+  .form-paragraph {
+    font-size: 1.7rem;
+  }
+}
+/* BELOW 576px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 36em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 57rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 26rem;
+    height: 29rem;
+  }
+  .tag--eko {
+    margin-right: 3rem;
+    margin-left: -4rem;
+    font-size: 1.6rem;
+  }
+  .album-title {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes--big {
+    font-size: 1.1rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .buttonhomes--big {
+    font-size: 1.1rem;
+  }
+  .buttonz--big {
+    font-size: 0.8rem;
+  }
+  .display--grid {
+    margin-left: -14rem;
+  }
+  .form-paragraph {
+    font-size: 1.6rem;
+  }
+  .subscribe {
+    font-size: 1.5rem;
+  }
+  .list-item {
+    font-size: 1.5rem;
+  }
+}
+
+/* BELOW 596px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 38em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 55rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 76rem;
+    height: 30rem;
+  }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 50rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    height: 40rem;
+  }
+  .tag--eko {
+    margin-right: 7rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  .album-title {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes--big,
+  .buttonz--big {
+    font-size: 2.5rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .display--grid {
+    margin-left: -14rem;
+  }
+  .form-paragraph {
+    font-size: 1.6rem;
+  }
+  .subscribe {
+    font-size: 1.5rem;
+  }
+  .heading---tertiaries {
+    font-size: 2rem;
+  }
+  .list-item {
+    font-size: 2rem;
+  }
+}
+
+/* BELOW 580px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 37em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 50rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 26rem;
+    height: 29rem;
+  }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 50rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    height: 40rem;
+  }
+  .tag--eko {
+    margin-right: 7rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  .album-title {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes--big,
+  .buttonz--big {
+    font-size: 2.5rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .display--grid {
+    margin-left: -16rem;
+  }
+  .form-paragraph {
+    font-size: 1.6rem;
+  }
+  .subscribe {
+    font-size: 1.5rem;
+  }
+  .heading---tertiaries {
+    font-size: 2rem;
+  }
+  .list-item {
+    font-size: 2rem;
+  }
+}
+/* BELOW 560px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 35em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 48rem;
+  }
+
+  .display--grid {
+    margin-left: -18rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 50rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    height: 40rem;
+  }
+  .tag--eko {
+    margin-right: 7rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  .album-title {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes--big,
+  .buttonz--big {
+    font-size: 2.5rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+  .form-paragraph {
+    font-size: 1.6rem;
+  }
+  .subscribe {
+    font-size: 1.5rem;
+  }
+  .heading---tertiaries {
+    font-size: 2rem;
+  }
+  .list-item {
+    font-size: 2rem;
+  }
+}
+/* BELOW 541px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 34em) {
+  .ekos-play {
+    height: 20rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 42rem;
+    height: 30rem;
+  }
+  .wrapper {
+    max-width: 45rem;
+  }
+
+  .subheading,
+  .heading-secondary {
+    margin-left: 3rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 47rem;
+    margin-left: 1rem;
+  }
+  .heading---tertiaries {
+    margin-left: 2rem;
+  }
+  .form-paragraph {
+    font-size: 1.5rem;
+  }
+  .preview-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 36%;
+    font-size: 1rem;
+  }
+}
+/* BELOW 528px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 33em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .ekos-play {
+    height: 20rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 43rem;
+    height: 30rem;
+  }
+  .wrapper {
+    /* width: 100rem; */
+  }
+  .photo---play {
+    margin-left: 25rem;
+    width: 40rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 40rem;
+  }
+  .tag--eko {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 1.7rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 9rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes--big,
+  .buttonz--big {
+    font-size: 1.5rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: 6rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 40rem;
+    height: 20rem;
+    margin-left: 3rem;
+  }
+  .photo----play {
+    margin-left: 24rem;
+    width: 40rem;
+  }
+  .volume-control::before {
+    font-size: 3rem;
+  }
+  .texts,
+  .text {
+    margin-left: 21.5rem;
+  }
+
+  .heading---tertiaries {
+    margin-left: 2rem;
+  }
+  .form-paragraph {
+    font-size: 1.5rem;
+  }
+  .preview-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 36%;
+    font-size: 1rem;
+  }
+}
+
+/* RESPONSIVE SECTION */
+@media (max-width: 32em) {
+  .head-nav {
+    /* background-color: #112477; */
+  }
+  .logo {
+    margin-left: 1.3rem;
+  }
+  .wrapper {
+    max-width: 48rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 44rem;
+    height: 30rem;
+  }
+  .photo---play {
+    width: 40rem;
+    height: 25rem;
+    margin-left: 24rem;
+  }
+  .text {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 22rem;
+  }
+  .photo----play {
+    width: 40rem;
+    height: 25rem;
+    margin-left: 24rem;
+  }
+  .texts {
+    margin-left: 22rem;
+  }
+  .display--grid {
+    margin-left: -19rem;
+  }
+  .subscribe {
+    font-size: 1.2rem;
+  }
+  .form-paragraph {
+    font-size: 1.4rem;
+  }
+  /* .form-group {
+    margin-bottom: 1rem;
+  }
+  form.form-section {
+    margin-top: 5rem;
+    padding: 0rem;
+  } */
+}
+
+/* BELOW 478px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 31em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 42rem;
+  }
+  .ekos-play {
+    height: 18rem;
+    width: 20.7rem;
+  }
+  .text {
+    width: 44rem;
+    height: 31rem;
+    margin-left: 21.2rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 1.2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    margin-left: 1rem;
+  }
+  .tag--eko {
+    margin-left: 1rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 7rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: 5rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.7rem;
+    padding-top: 0.4rem;
+  }
+  .texts {
+    margin-left: 23rem;
+    width: 40rem;
+    height: 34rem;
+    padding-left: 2rem;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-text {
+    box-shadow: none;
+    margin-top: -23.4rem;
+  }
+  .form-paragraph {
+    font-size: 1.4rem;
+  }
+}
+/* BELOW 478px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 30em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 40rem;
+  }
+  .photo---play {
+    margin-left: 23rem;
+  }
+  .text {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 22rem;
+  }
+  .texts {
+    width: 40rem;
+    height: 34rem;
+    margin-left: 23rem;
+  }
+  .form-paragraph {
+    font-size: 1.3rem;
+  }
+}
+/* RESPONSIVE SECTION */
+@media (max-width: 28em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 37rem;
+  }
+  .photo---play {
+    margin-left: 21.5rem;
+  }
+  text {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 21.2rem;
+  }
+  .ekos-play {
+    height: 17rem;
+    width: 18.5rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 35rem;
+    height: 20rem;
+    margin-left: 3rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 2rem;
+  }
+  .photo----play {
+    width: 40rem;
+    height: 25rem;
+    margin-left: 21rem;
+  }
+  .texts {
+    width: 40rem;
+    height: 34rem;
+    margin-left: 21rem;
+  }
+
+  .form-paragraph {
+    font-size: 1.3rem;
+  }
+}
+/* BELOW 408px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 26em) {
+  .photo---play {
+    margin-left: 22rem;
+    width: 35rem;
+  }
+  .text {
+    width: 35rem;
+    height: 40rem;
+    margin-left: 22rem;
+  }
+  .ekos-play {
+    height: 13rem;
+    width: 16rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 32rem;
+    height: 17rem;
+    margin-left: 3rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 4rem;
+    font-size: 1.2rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 35rem;
+    margin-right: 5rem;
+    height: 45rem;
+  }
+  .list {
+    margin-left: 3rem;
+  }
+  .heading---tertiaries {
+    margin-left: 5rem;
+    font-size: 1.6rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.5rem;
+  }
+  .photo----play {
+    width: 36rem;
+    height: 25rem;
+    margin-left: 21.5rem;
+  }
+  .texts {
+    width: 36rem;
+    height: 44rem;
+    margin-left: 21.5rem;
+  }
+  .container-paragraph {
+    font-size: 1.6rem;
+    margin-top: -1rem;
+  }
+  .form-paragraph {
+    font-size: 1.2rem;
+  }
+  .subscribe {
+    font-size: 1.1rem;
+  }
+}
+/* BELOW 390px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 25em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 35rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 35rem;
+    height: 30rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 4rem;
+    font-size: 1.1rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 34rem;
+    margin-right: 5rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 29rem;
+    height: 17rem;
+    margin-left: 3rem;
+  }
+  .tag--eko {
+    margin-left: 2rem;
+  }
+  .eko-tags {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 5rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: 3rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.3rem;
+  }
+  .photo---play {
+    margin-left: 22rem;
+    width: 35rem;
+    margin-left: 21rem;
+  }
+  .text {
+    width: 35rem;
+    height: 40rem;
+    margin-left: 21rem;
+  }
+  .photo----play {
+    width: 36rem;
+    height: 25rem;
+    margin-left: 20.5rem;
+  }
+  .texts {
+    width: 36rem;
+    height: 44rem;
+    margin-left: 20.5rem;
+  }
+}
+/* BELOW 378px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 24em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .carousel img {
+    width: 32rem;
+    height: 25rem;
+  }
+  .wrapper {
+    max-width: 32rem;
+  }
+  .photo---play {
+    margin-left: 20.4rem;
+  }
+  .text {
+    width: 30rem;
+    height: 47rem;
+    margin-left: 23rem;
+  }
+  .displays-grids {
+    grid-template-columns: 1fr;
+    margin-left: 2.8rem;
+  }
+  .ekos-play {
+    height: 20rem;
+    width: 32rem;
+  }
+  .heading-secondary {
+    margin-left: 4rem;
+    font-size: 1.1rem;
+  }
+  .list {
+    margin-left: 2rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 33rem;
+    margin-right: 2rem;
+  }
+  .tag--eko {
+    margin-right: -1rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited {
+    width: 15rem;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+  }
+  .buttonz:link,
+  .buttonz:visited {
+    width: 15rem;
+    margin-left: 5rem;
+    font-size: 1.1rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  .list {
+    margin-left: 2rem;
+    width: 30rem;
+  }
+  .heading---tertiaries {
+    margin-left: 4rem;
+    font-size: 1.6rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.3rem;
+  }
+  .photo----play {
+    width: 33rem;
+  }
+  .texts {
+    width: 33rem;
+    height: 50rem;
+    margin-left: 21.5rem;
+  }
+  .buttoneko:link,
+  .buttoneko:visited {
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    width: 16rem;
+    margin-left: -1rem;
+  }
+  .subscribe {
+    font-size: 1rem;
+  }
+
+  .form-paragraph {
+    font-size: 1.1rem;
+  }
+  .button-submit[type="submit"] {
+    font-size: 1.7rem;
+  }
+}
+/* BELOW 362px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 23em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .carousel img {
+    width: 32rem;
+    height: 25rem;
+  }
+  .photo---play {
+    width: 29rem;
+    height: 20rem;
+    margin-left: 23rem;
+  }
+  .text {
+    width: 30rem;
+    height: 47rem;
+    margin-left: 22rem;
+  }
+  .btnhome--big {
+    font-size: 1rem;
+    margin-top: -4rem;
+    margin-left: -1rem;
+  }
+  .ekos-play {
+    height: 19rem;
+    width: 30rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 27rem;
+    height: 17rem;
+    margin-left: 3rem;
+  }
+  .eko-tags {
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited {
+    width: 15rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+  }
+  .photo----play {
+    width: 31rem;
+  }
+  .texts {
+    width: 31rem;
+    height: 52rem;
+    margin-left: 21.5rem;
+  }
+}
+/* BELOW 362px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 23em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .carousel img {
+    width: 32rem;
+    height: 25rem;
+  }
+  .photo---play {
+    width: 29rem;
+    height: 20rem;
+    margin-left: 23rem;
+  }
+  .text {
+    width: 30rem;
+    height: 47rem;
+    margin-left: 22rem;
+  }
+  .btnhome--big {
+    font-size: 1rem;
+    margin-top: -4rem;
+    margin-left: -1rem;
+  }
+  .ekos-play {
+    height: 19rem;
+    width: 30rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 27rem;
+    height: 17rem;
+    margin-left: 3rem;
+  }
+  .eko-tags {
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited {
+    width: 15rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+  }
+  .photo----play {
+    width: 31rem;
+  }
+  .texts {
+    width: 31rem;
+    height: 52rem;
+    margin-left: 21.5rem;
+  }
+}
+
+/* BELOW 349px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 22em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .carousel img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .wrapper {
+    max-width: 30rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 30rem;
+    margin-right: 2rem;
+  }
+  .subheading,
+  .heading-secondary {
+    margin-left: 3rem;
+    font-size: 1.1rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 27rem;
+    height: 17rem;
+    margin-left: 2rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.2rem;
+  }
+  .subscribe {
+    font-size: 0.9rem;
+  }
+  .form-paragraph {
+    font-size: 1rem;
+    margin-bottom: -3rem;
+  }
+  .form-label {
+    font-size: 1rem;
+  }
+}
+
+/* BELOW 336px(for smaller desktop screen size */
+@media (max-width: 21em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .carousel img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .photo---play {
+    width: 29rem;
+    height: 20rem;
+    margin-left: 21.5rem;
+  }
+  .text {
+    width: 30rem;
+    height: 49rem;
+    margin-left: 21rem;
+  }
+  .ekos-play {
+    height: 19rem;
+    width: 28rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+  .buttonz:link,
+  .buttonz:visited {
+    width: 15rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+  }
+  .heading---tertiaries {
+    margin-left: 4rem;
+    font-size: 1.4rem;
+  }
+  .list {
+    margin-left: 2rem;
+    width: 28rem;
+  }
+  .photo----play {
+    width: 29rem;
+  }
+  .texts {
+    width: 29rem;
+    height: 56rem;
+    margin-left: 21.5rem;
+  }
+  .h2 {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+  .subscribe {
+    font-size: 0.8rem;
+  }
+  .form-paragraph {
+    font-size: 0.9rem;
+    margin-bottom: -3rem;
+  }
+  .form {
+    margin-bottom: 3rem;
+  }
+  footer {
+    height: 3rem;
+  }
+  #album-cover {
+    width: 4rem;
+    height: 3rem;
+  }
+  button {
+    font-size: 1.5rem;
+    width: 4rem;
+    height: 3rem;
+  }
+}
+
+/* BELOW 336px(for smaller desktop screen size */
+@media (max-width: 20em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 25rem;
+  }
+  .carousel img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .photo---play {
+    width: 26rem;
+  }
+  .text {
+    width: 27rem;
+    height: 57rem;
+    margin-left: 21rem;
+  }
+  .ekos-play {
+    height: 19rem;
+    width: 25rem;
+  }
+  .subheading {
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  .heading-secondary {
+    margin-left: 4rem;
+    font-size: 0.6rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 24rem;
+    height: 17rem;
+    margin-left: rem;
+  }
+  .list {
+    margin-left: 2rem;
+    width: 25rem;
+  }
+  .list-item {
+    font-size: 1.8rem;
+  }
+  .free-mixtapes {
+    font-size: 1.6rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1rem;
+  }
+  .frees-icons {
+    height: 1rem;
+    width: 1rem;
+    padding-top: 1rem;
+  }
+  .free {
+    height: 4rem;
+  }
+  .photo----play {
+    width: 26rem;
+    height: 20rem;
+  }
+  .texts {
+    width: 26rem;
+    height: 68rem;
+    margin-left: 21.5rem;
+  }
+  .form-paragraph {
+    font-size: 0.8rem;
+    margin-bottom: -3rem;
+  }
+  .button-submit[type="submit"] {
+    font-size: 1.4rem;
+  }
+}
+/* BELOW 306px(for smaller desktop screen size */
+@media (max-width: 19em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 25rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 26rem;
+    margin-right: 2rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 20rem;
+    height: 15rem;
+  }
+  .eko-tags {
+    margin-left: -3rem;
+    margin-top: 1rem;
+  }
+  .album-title {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    margin-left: 1rem;
+  }
+}
+
+/* BELOW 280px(for smaller desktop screen size */
+@media (max-width: 18em) {
+  .head-nav {
+    /* background-color: red; */
+  }
+  .wrapper {
+    max-width: 24rem;
+  }
+  .carousel img {
+    width: 25rem;
+    height: 20rem;
+  }
+  .photo---play {
+    width: 23rem;
+  }
+  .text {
+    width: 24rem;
+    height: 61rem;
+    margin-left: 21rem;
+  }
+  .ekos-play {
+    height: 17rem;
+    width: 22rem;
+  }
+  .heading-secondary {
+    margin-left: 3rem;
+    font-size: 0.6rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 19rem;
+    height: 15rem;
+    margin-left: 2.5rem;
+  }
+  .album-title,
+  .album-titlez {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 23rem;
+    /* margin-right: 2rem; */
+  }
+  .eko-tags {
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: -1rem;
+    font-size: 1.5rem;
+  }
+  .list-item {
+    font-size: 1.5rem;
+  }
+  .free-mixtapes1 {
+    font-size: 0.9rem;
+  }
+  .photo----play {
+    width: 23rem;
+    height: 20rem;
+  }
+  .texts {
+    width: 23rem;
+    height: 72rem;
+    margin-left: 21.5rem;
+  }
+}

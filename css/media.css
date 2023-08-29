@@ -1,0 +1,2845 @@
+/* BELOW 1344px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 84em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .logo-personal {
+    margin-left: -3rem;
+  }
+  .grid--2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+  .photo11-play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: 2rem;
+  }
+  .grid01-container {
+    margin-left: 1rem;
+    /* margin-right: 5rem; */
+  }
+  .lists1 {
+    gap: 1rem;
+  }
+  .heading-anticipate {
+    font-size: 1.2rem;
+  }
+  .headingz1-tertiaries {
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    font-size: 1rem;
+  }
+  .album-home-sections2 {
+    margin-top: 2rem;
+  }
+  .reason1-box {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .reason1 {
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: 2rem;
+  }
+  .homes {
+    font-size: 0.8rem;
+  }
+  .home1 {
+    margin-left: 1rem;
+
+    font-size: 0.8rem;
+  }
+
+  .headin---tertiary {
+    font-size: 0.8rem;
+    list-style: none;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .list-items2 {
+    font-size: 1rem;
+
+    gap: 1.3rem;
+  }
+  .imgs-play-graphics {
+    width: 37rem;
+    height: 31.5rem;
+    margin-left: 6rem;
+  }
+  .home9 {
+    margin-left: 3rem;
+    width: 30rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    margin-left: 3rem;
+    width: 30rem;
+  }
+
+  .imgs-play-graphics {
+    width: 30rem;
+    height: 25.5rem;
+    margin-left: 3rem;
+  }
+  .headin9-tertiary {
+    width: 30rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: 1rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    font-size: 1rem;
+  }
+  .headinggg-tertiary {
+    line-height: 1.3;
+    height: 20rem;
+    margin-left: 1rem;
+  }
+  .img-play-graphics {
+    height: 24rem;
+  }
+  .home {
+    font-size: 0.8rem;
+    width: 30rem;
+    margin-left: -2rem;
+  }
+  .heading-guarantee {
+    width: 30rem;
+    margin-left: -2rem;
+  }
+  .entertainment-section {
+    height: 94rem;
+    width: 80rem;
+    background-color: #fff;
+    margin-left: 2rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    background-color: #fff;
+  }
+  .dropdown-section {
+    width: 80rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .video-section {
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+  }
+  video {
+    margin-top: 2rem;
+  }
+  .homes-01 {
+    background: #6ec1e4;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-left: -4rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+
+  .video-paragraph {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+}
+/* BELOW 1291px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 81em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: 1rem;
+  }
+
+  .imgs-play-graphics {
+    width: 30rem;
+    height: 25.5rem;
+    margin-left: 5rem;
+  }
+  .home9 {
+    margin-left: 2rem;
+    width: 30rem;
+  }
+  .headin9-tertiary {
+    width: 30rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    margin-left: 2rem;
+    width: 30rem;
+  }
+
+  .home-paragraph1 {
+    margin-left: 3rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+/* BELOW 1300px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 82em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .entertainment-section {
+    width: 77rem;
+  }
+  .dropdown-section {
+    width: 77rem;
+  }
+}
+
+/* RESPONSIVE SECTION */
+@media (max-width: 80em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .entertainment-section {
+    width: 76rem;
+    height: 97rem;
+  }
+  .dropdown-section {
+    width: 76rem;
+  }
+  .video-paragraph {
+    font-size: 1.3rem;
+    margin-top: 0rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: -7rem;
+  }
+}
+/* BELOW 1257px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 79em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .entertainment-section {
+    width: 74rem;
+    height: 100rem;
+  }
+  .list--items {
+    margin-right: -1rem;
+  }
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 26rem;
+    margin-left: 1rem;
+  }
+  .home-paragraph2 {
+    margin-left: -2rem;
+  }
+  .parallax-title {
+    font-size: 1.9rem;
+    color: #fff;
+  }
+  .dropdown-section {
+    width: 74rem;
+  }
+  video {
+    width: 40rem;
+    margin-left: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    box-shadow: none;
+    margin-top: 1rem;
+  }
+  .butthse--big {
+    margin-top: 0rem;
+  }
+}
+/* BELOW 1257px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 78em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: -1rem;
+  }
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 24rem;
+    margin-left: 1rem;
+  }
+  .img-play-graphics {
+    height: 23.5rem;
+    margin-left: -1rem;
+  }
+  .heading-guarantee {
+    width: 30rem;
+    margin-left: -2rem;
+    font-size: 1.5rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: -7rem;
+    height: 21rem;
+  }
+  .video-paragraph {
+    font-size: 0.9rem;
+    box-shadow: none;
+    margin-top: 1.2rem;
+  }
+  .butts222--big {
+    margin-top: 0rem;
+  }
+}
+/* BELOW 1232px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 77em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .heading-anticipate {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .grid01-container {
+    width: 30rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 29rem;
+    margin-left: 1rem;
+  }
+  .list--items {
+    margin-right: -1rem;
+  }
+  .img-play-graphics {
+    height: 24.5rem;
+    width: 30rem;
+  }
+  .class-eko {
+    width: 20rem;
+    margin-left: 5rem;
+  }
+  .home9 {
+    margin-left: -2rem;
+  }
+  .headin9-tertiary {
+    width: 30rem;
+    margin-left: -2rem;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    margin-left: -2rem;
+    width: 30rem;
+  }
+
+  .entertainment-section {
+    width: 72rem;
+    height: 100rem;
+  }
+
+  .dropdown-section {
+    width: 72rem;
+  }
+  video {
+    width: 40rem;
+    height: 27rem;
+  }
+
+  .list-icon2 {
+    margin-left: -3.4rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .homes-01 {
+    margin-top: 4rem;
+  }
+  .video-paragraph {
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+  }
+}
+/* BELOW 1212px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 76em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .img-play-graphics {
+    height: 23.5rem;
+    width: 30rem;
+  }
+  .butthse:link,
+  .butthse:visited {
+    font-size: 0.8rem;
+  }
+  .butthse:link,
+  .butthse:visited {
+    font-size: 1.2rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    box-shadow: none;
+    margin-top: 1.2rem;
+  }
+}
+
+/* BELOW 1187px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 75em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .img-play-graphics {
+    height: 23.5rem;
+    width: 30rem;
+  }
+  .home1 {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    width: 28rem;
+  }
+  .headinggg-tertiary {
+    line-height: 1.3;
+    height: 23rem;
+    margin-left: 1rem;
+    width: 28rem;
+  }
+  .img-play-graphics {
+    height: 26.5rem;
+    width: 34rem;
+  }
+  .video-paragraph {
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+  }
+  .entertainment-section {
+    width: 70rem;
+    height: 105rem;
+  }
+  .parallax-title {
+    font-size: 1.8rem;
+  }
+  .home {
+    font-size: 0.8rem;
+    width: 30rem;
+    margin-left: -1rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: -9rem;
+    height: 21rem;
+  }
+  .dropdown-section {
+    width: 70rem;
+  }
+  .video-paragraph {
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+  }
+  .home9 {
+    margin-left: -6rem;
+  }
+  .headin9-tertiary {
+    width: 30rem;
+    margin-left: -6rem;
+    font-size: 1.1rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    margin-left: -6rem;
+    width: 30rem;
+  }
+  .heading-guarantee {
+    width: 30rem;
+    margin-left: -1rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* BELOW 1163px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 73em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .list-items2 {
+    margin-right: 1rem;
+  }
+  .entertainment-section {
+    width: 69rem;
+    height: 105rem;
+  }
+  .dropdown-section {
+    width: 69rem;
+  }
+  .img-play-graphics {
+    height: 23.7rem;
+    width: 27rem;
+  }
+  .imgs-play-graphics {
+    width: 30rem;
+    height: 25.5rem;
+    margin-left: -1rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: -6rem;
+    height: 21rem;
+  }
+
+  .home-paragraph {
+    margin-left: 5rem;
+  }
+  .parallax-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* BELOW 1163px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 73em) {
+  .section-header {
+    /* height: 4rem; */
+  }
+  .photo11-play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: -5rem;
+  }
+  .photo2--play-graphics {
+    width: 33rem;
+    height: 27rem;
+    margin-left: -6rem;
+  }
+  .reason1 {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+  }
+  .entertainment-section {
+    width: 65.5rem;
+    height: 115rem;
+  }
+  .home-paragraph1 {
+    margin-right: -2.4rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-right: 2rem;
+  }
+  .home-paragraph2 {
+    /* margin-right: -2.4rem; */
+  }
+  .home1 {
+    margin-left: -5rem;
+    width: 27rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -5rem;
+    height: 24rem;
+    width: 27rem;
+    font-size: 1rem;
+  }
+  .img-play-graphics {
+    height: 28rem;
+    width: 33rem;
+    margin-left: -5rem;
+  }
+  .grid--2-col {
+    margin-left: 8rem;
+  }
+  .dropdown-section {
+    width: 65.5rem;
+  }
+  video {
+    width: 37rem;
+    height: 26rem;
+  }
+  .homes-01 {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+  }
+  .video-paragraph {
+    font-size: 1.3rem;
+    margin-top: 0rem;
+  }
+  .grid--2-col {
+    margin-left: 6rem;
+  }
+  .home {
+    margin-top: 2rem;
+    margin-left: -4rem;
+    margin-right: 0rem;
+  }
+  .heading-guarantee {
+    margin-left: -4rem;
+    margin-right: 0rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+/* BELOW 1083px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 71em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .img-guarantee-graphics {
+    margin-left: -11rem;
+    height: 21rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+  }
+  .parallax-title {
+    font-size: 1.6rem;
+  }
+}
+/* BELOW 1083px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 70em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .parallax-title {
+    font-size: 1.6rem;
+  }
+  .home-paragraph {
+    margin-left: 2rem;
+  }
+  .img-guarantee-graphics {
+    margin-left: -8rem;
+    height: 21rem;
+  }
+  .video-paragraph {
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+  }
+}
+/* BELOW 1086px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 69em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    width: 30rem;
+    height: 22.4rem;
+    margin-left: -6rem;
+  }
+  .grid01-container {
+    width: 30rem;
+    margin-left: -1rem;
+  }
+  .homes {
+    font-size: 0.8rem;
+    margin-left: -1rem;
+  }
+  .headin---tertiary {
+    margin-left: -1rem;
+    font-size: 0.8rem;
+  }
+  .home-paragraph1 {
+    margin-left: -1rem;
+  }
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 26.3rem;
+    margin-left: -6rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 27rem;
+    width: 24rem;
+    font-size: 1rem;
+  }
+}
+
+/* BELOW 1083px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 68em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    width: 30rem;
+    height: 22rem;
+    margin-left: -6.7rem;
+  }
+
+  .img-guarantee-graphics {
+    height: 25.4rem;
+    width: 30rem;
+    margin-left: -11rem;
+  }
+  .heading-guarantee {
+    margin-left: -6rem;
+    margin-right: 0rem;
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    gap: 0rem;
+  }
+  .butths:link,
+  .butths:visited {
+    border-radius: 0rem;
+  }
+  .photo2--play-graphics {
+    width: 30rem;
+    height: 26rem;
+    margin-left: -6rem;
+  }
+  .home {
+    font-size: 1rem;
+    margin-left: -6rem;
+  }
+
+  .home-paragraph {
+    margin-left: 3rem;
+  }
+  .homes {
+    font-size: 0.6rem;
+    margin-left: -2rem;
+  }
+  .headin---tertiary {
+    margin-left: -2rem;
+    font-size: 0.8rem;
+  }
+  .list-icon2 {
+    margin-left: -1rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -1rem;
+  }
+  .list-items2 {
+    margin-right: 1rem;
+  }
+  .entertainment-section {
+    width: 64rem;
+    height: 116rem;
+  }
+  .home1 {
+    font-size: 0.7rem;
+    margin-left: -4rem;
+
+    width: 24rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 27rem;
+    width: 24rem;
+    font-size: 1rem;
+  }
+  .img-play-graphics {
+    height: 30rem;
+    width: 33rem;
+    margin-left: -5rem;
+  }
+  .home9 {
+    font-size: 0.8rem;
+    margin-left: -6rem;
+  }
+  .headin9-tertiary {
+    font-size: 1rem;
+    margin-left: -6rem;
+    margin-top: 0.4rem;
+    padding: 1rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    margin-left: -6rem;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .imgs-play-graphics {
+    height: 20.2rem;
+    margin-left: -3rem;
+  }
+  .class-eko {
+    width: 20rem;
+    margin-left: 3rem;
+  }
+
+  .box-paragraph {
+    font-size: 0.8rem;
+  }
+  .parallax-title {
+    font-size: 1.6rem;
+  }
+  .entertainment-section {
+    width: 64rem;
+    height: 80rem;
+  }
+  .home {
+    font-size: 0.8rem;
+  }
+  .dropdown-section {
+    width: 64rem;
+  }
+  video {
+    width: 37rem;
+    height: 26.3rem;
+  }
+
+  .homes-01 {
+    margin-top: 4.5rem;
+    font-size: 0.8rem;
+  }
+
+  .video-paragraph {
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    margin-top: 0.8rem;
+  }
+}
+
+/* BELOW 1086px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 67em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    width: 26rem;
+  }
+  .photo2--play-graphics {
+    width: 27rem;
+    height: 23rem;
+    margin-left: -5rem;
+  }
+  .entertainment-section {
+    width: 62rem;
+    height: 80rem;
+  }
+  .parallax-title {
+    font-size: 1.5rem;
+  }
+  .dropdown-section {
+    width: 62rem;
+  }
+  video {
+    width: 36rem;
+    height: 26.3rem;
+  }
+  .video-paragraph {
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+  }
+}
+
+/* BELOW 1086px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 67em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo2--play-graphics {
+    width: 27rem;
+    height: 26.5rem;
+    margin-left: -5rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 27rem;
+    width: 24rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .img-play-graphics {
+    width: 30rem;
+    margin-left: -4rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .imgs-play-graphics {
+    height: 23rem;
+    margin-left: -1rem;
+    width: 27rem;
+  }
+  .home9 {
+    font-size: 0.8rem;
+    width: 25rem;
+    margin-left: -5rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 25rem;
+    margin-left: -5rem;
+  }
+  .headin9-tertiary {
+    font-size: 1rem;
+    margin-left: -5rem;
+    margin-top: 0.4rem;
+    padding: 1rem;
+    width: 25rem;
+  }
+  .aalbum-section {
+    width: 60rem;
+  }
+  .heading-guarantee,
+  .home {
+    width: 26rem;
+    margin-left: -4rem;
+  }
+  .img-guarantee-graphics {
+    height: 27.9rem;
+    width: 30rem;
+    margin-left: -12rem;
+  }
+  .heading-guarantee,
+  .home {
+    width: 26rem;
+    margin-left: -5rem;
+  }
+  .entertainment-section {
+    width: 60rem;
+    height: 82rem;
+  }
+  .parallax-title {
+    font-size: 1.5rem;
+  }
+  .dropdown-section {
+    width: 60rem;
+  }
+  .homes-01 {
+    margin-top: 4.5rem;
+    font-size: 0.6rem;
+    margin-left: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 20rem;
+    margin-left: 1rem;
+  }
+}
+/* BELOW 966x(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 61em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 27rem;
+  }
+  .heading-anticipate {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  .list--items {
+    margin-right: -1rem;
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 27rem;
+    margin-left: 1rem;
+  }
+  .entertainment-section {
+    width: 56.5rem;
+    height: 90rem;
+  }
+  .aalbum-section {
+    width: 57rem;
+  }
+  .dropdown-section {
+    width: 57rem;
+  }
+  .img-guarantee-graphics {
+    height: 20rem;
+    width: 25rem;
+    margin-left: -10rem;
+  }
+  .home {
+    width: 25rem;
+  }
+  .heading-guarantee {
+    width: 25rem;
+    font-size: 1.3rem;
+  }
+  .video-section {
+    width: 57rem;
+  }
+  video {
+    width: 32rem;
+    height: 26.3rem;
+  }
+  .video-paragraph {
+    font-size: 1rem;
+    margin-top: 0rem;
+    width: 20rem;
+    margin-left: 1rem;
+  }
+  .homes-01 {
+    margin-top: 6rem;
+    font-size: 0.6rem;
+    margin-left: 1rem;
+  }
+  .photo2--play-graphics {
+    width: 25rem;
+    height: 20.5rem;
+    margin-left: -7rem;
+  }
+  .home-paragraph1 {
+    margin-left: -3rem;
+  }
+  .list-items2 {
+    font-size: 0.8rem;
+  }
+  .grid--2-col {
+    margin-left: 5.7rem;
+  }
+  .home1 {
+    font-size: 0.7rem;
+    margin-left: -4rem;
+    width: 20rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 30rem;
+    width: 20rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+  .img-play-graphics {
+    width: 30rem;
+    margin-left: -8rem;
+    height: 33rem;
+  }
+  .parallax-title {
+    font-size: 1.3rem;
+  }
+  .reason1 {
+    font-size: 1.2rem;
+    margin-left: 0rem;
+  }
+  .video-paragraph {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    width: 20rem;
+  }
+}
+/* BELOW 933px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 60em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+  .photo11-play-graphics {
+    margin-left: 6rem;
+    width: 38rem;
+    height: 27rem;
+  }
+  .grid01-container {
+    width: 30rem;
+    margin-left: 8rem;
+  }
+  .heading-anticipate {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .heading-anticipate {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .reason1 {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 6rem;
+    width: 36rem;
+    height: 27rem;
+  }
+  .home-paragraph1 {
+    margin-left: 8rem;
+  }
+  .homes {
+    font-size: 1rem;
+    margin-left: -0rem;
+    width: 34rem;
+  }
+  .headin---tertiary,
+  .list-items2 {
+    margin-left: 0rem;
+    font-size: 1rem;
+    width: 34rem;
+  }
+  .list-icon2 {
+    margin-left: 0rem;
+    font-size: 1rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    width: 34rem;
+  }
+  .home-paragraph2 {
+    margin-left: 8rem;
+  }
+  .home1 {
+    font-size: 1rem;
+    margin-left: -4rem;
+    width: 40rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 20rem;
+    width: 40rem;
+    font-size: 1rem;
+    padding-top: 2rem;
+    box-shadow: none;
+  }
+  .img-play-graphics {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    width: 40rem;
+    height: 30rem;
+  }
+
+  .imgs-play-graphics {
+    height: 23rem;
+    margin-left: 10rem;
+    width: 35rem;
+  }
+  .class-eko {
+    margin-left: 10rem;
+  }
+  .home9 {
+    width: 35rem;
+  }
+  .headin9-tertiary {
+    width: 35rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 35rem;
+    font-size: 1rem;
+  }
+  .class-eko {
+    margin-left: 15rem;
+    margin-top: -3rem;
+  }
+  .aaalbum-section {
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 47rem;
+  }
+  .parallax-title {
+    font-size: 1.4rem;
+  }
+  .entertainment-section {
+    width: 58rem;
+    height: 87rem;
+  }
+  .grid--22-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 9rem;
+  }
+  .img-guarantee-graphics {
+    height: 27.9rem;
+    width: 40rem;
+    margin-left: -2rem;
+  }
+  .heading-guarantee,
+  .home {
+    width: 35rem;
+    margin-left: -2rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 56rem;
+  }
+  .entertainment-section {
+    width: 56rem;
+    height: 90rem;
+  }
+  .parallax-title {
+    font-size: 1.3rem;
+  }
+  .dropdown-section {
+    width: 58rem;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  video {
+    width: 40rem;
+    height: 26.3rem;
+    margin-left: 9rem;
+  }
+  .homes-01 {
+    width: 30rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1rem;
+    margin-top: 0rem;
+    width: 30rem;
+    margin-left: 13rem;
+  }
+  .video-section {
+    width: 58rem;
+  }
+}
+/* BELOW 1028px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 65em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .video-paragraph {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    width: 30rem;
+    margin-left: 13rem;
+  }
+}
+
+/* BELOW 933px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 59em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+
+  .photo11-play-graphics {
+    margin-left: 6rem;
+    width: 38rem;
+    height: 27rem;
+  }
+  .grid01-container {
+    width: 30rem;
+    margin-left: 8rem;
+  }
+  .heading-anticipate {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .reason1 {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 6rem;
+    width: 36rem;
+    height: 27rem;
+  }
+  .homes {
+    font-size: 1rem;
+    margin-left: -0rem;
+  }
+  .headin---tertiary,
+  .list-items2,
+  .list-icon2 {
+    margin-left: 0rem;
+    font-size: 1rem;
+  }
+  .home-paragraph2 {
+    margin-left: 8rem;
+  }
+  .home1 {
+    font-size: 1rem;
+    margin-left: -4rem;
+    width: 40rem;
+  }
+  .headinggg-tertiary {
+    margin-left: -4rem;
+    height: 20rem;
+    width: 40rem;
+    font-size: 1rem;
+    padding-top: 2rem;
+    box-shadow: none;
+  }
+  .img-play-graphics {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    width: 40rem;
+    height: 30rem;
+  }
+  .imgs-play-graphics {
+    height: 23rem;
+    margin-left: 10rem;
+    width: 35rem;
+  }
+  .class-eko {
+    margin-left: 10rem;
+  }
+  .home9 {
+    width: 35rem;
+  }
+  .headin9-tertiary {
+    width: 35rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 35rem;
+    font-size: 1rem;
+  }
+  .class-eko {
+    margin-left: 15rem;
+    margin-top: -3rem;
+  }
+  .aaalbum-section {
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 47rem;
+  }
+  .parallax-title {
+    font-size: 1.4rem;
+  }
+
+  .grid--22-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 6rem;
+  }
+  .img-guarantee-graphics {
+    height: 27.9rem;
+    width: 40rem;
+    margin-left: -2rem;
+  }
+  .heading-guarantee,
+  .home {
+    width: 35rem;
+    margin-left: -2rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 55rem;
+  }
+  .entertainment-section {
+    width: 55rem;
+    height: 91rem;
+  }
+  .parallax-title {
+    font-size: 1.3rem;
+  }
+  .dropdown-section {
+    width: 55rem;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  video {
+    width: 40rem;
+    height: 26.3rem;
+    margin-left: 7rem;
+  }
+  .homes-01 {
+    width: 30rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 30rem;
+    margin-left: 13rem;
+  }
+  .video-section {
+    width: 55rem;
+  }
+}
+
+/* BELOW 923px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 58em) {
+  .section-header {
+    /* height: 4rem; */
+  }
+  .photo11-play-graphics {
+    margin-left: 5rem;
+    width: 38rem;
+    height: 27rem;
+  }
+  .grid01-container {
+    margin-left: 6rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 35rem;
+  }
+
+  .list--items {
+    width: 37rem;
+    margin-right: -1rem;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 35rem;
+    margin-left: 1rem;
+  }
+  .entertainment-section {
+    width: 53rem;
+    height: 98rem;
+  }
+  .parallax-title {
+    font-size: 1.2rem;
+  }
+  .dropdown-section {
+    width: 53rem;
+  }
+  .video-section {
+    width: 53rem;
+  }
+}
+
+/* BELOW 886px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 56em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .entertainment-section {
+    width: 51rem;
+    height: 104rem;
+  }
+  .parallax-title {
+    font-size: 1.1rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 51rem;
+  }
+  .grid--22-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 3rem;
+  }
+  .dropdown-section {
+    width: 51rem;
+  }
+  .video-section {
+    width: 51rem;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin-left: -1rem;
+  }
+}
+
+/* BELOW 886px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 53em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    margin-left: 6rem;
+    width: 38rem;
+    height: 27rem;
+  }
+  .grid01-container {
+    margin-left: 7rem;
+  }
+  .reason1 {
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 8rem;
+    width: 36rem;
+    height: 27rem;
+  }
+  .home-paragraph1 {
+    margin-left: 9rem;
+  }
+  .entertainment-section {
+    width: 48rem;
+    height: 76rem;
+  }
+  .home-paragraph2 {
+    margin-left: 9rem;
+  }
+  .img-play-graphics {
+    margin-left: 5rem;
+  }
+  .parallax-title {
+    font-size: 1rem;
+  }
+
+  .entertainment-paragraph,
+  .entertainment-paragraphs {
+    padding: 2rem;
+    margin-bottom: 10rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 48rem;
+  }
+  .grid--2-col {
+    margin-left: -3rem;
+  }
+  .grid--22-col {
+    margin-left: 2rem;
+  }
+
+  .dropdown-section {
+    width: 48rem;
+  }
+  .video-container {
+    margin-left: -3rem;
+  }
+  .video-section {
+    width: 48rem;
+  }
+}
+
+/* BELOW 886px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 50em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    margin-left: 5rem;
+    width: 38rem;
+    height: 27rem;
+  }
+  .grid01-container {
+    margin-left: 6rem;
+  }
+  .reason1 {
+    font-size: 0.9rem;
+  }
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 9rem;
+  }
+  .why {
+    line-height: 1.3;
+  }
+  .photo2--play-graphics {
+    margin-left: 6rem;
+    width: 36rem;
+    height: 27rem;
+  }
+  .home-paragraph1 {
+    margin-left: 7rem;
+  }
+  .home-paragraph2 {
+    margin-left: 8rem;
+  }
+  .img-play-graphics {
+    margin-left: 4rem;
+  }
+  .imgs-play-graphics {
+    height: 23rem;
+    margin-left: 8rem;
+    width: 35rem;
+  }
+  .class-eko {
+    margin-left: 13rem;
+    margin-top: -3rem;
+  }
+  .entertainment-section {
+    width: 46rem;
+    height: 76rem;
+  }
+  .buttonss---big {
+    font-size: 0.9rem;
+  }
+  .parallax-title {
+    font-size: 0.9rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 46rem;
+  }
+  .dropdown-section {
+    width: 46rem;
+  }
+  .video-section {
+    width: 46rem;
+  }
+  .video-container {
+    margin-left: -4rem;
+  }
+}
+
+/* BELOW 738px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 50em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .photo11-play-graphics {
+    margin-left: 7rem;
+    width: 30rem;
+    height: 20rem;
+  }
+  .heading-anticipate {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 31rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 30rem;
+    margin-left: 1rem;
+  }
+  .reason1 {
+    font-size: 0.8rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 7rem;
+    width: 30rem;
+    height: 20rem;
+  }
+  .homes {
+    font-size: 1rem;
+    margin-left: 0rem;
+    width: 30rem;
+  }
+  .headin---tertiary,
+  .list-items2 {
+    width: 30rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    width: 30rem;
+  }
+  .home-paragraph2 {
+    margin-left: 11rem;
+  }
+  .home1 {
+    font-size: 1rem;
+    margin-left: -4rem;
+    width: 30rem;
+  }
+  .headinggg-tertiary {
+    width: 30rem;
+    font-size: 1rem;
+  }
+  .img-play-graphics {
+    margin-left: 7rem;
+    width: 30rem;
+    height: 20rem;
+  }
+  .imgs-play-graphics {
+    height: 23rem;
+    margin-left: 6.5rem;
+    width: 35rem;
+  }
+  .home9 {
+    margin-left: -6.5rem;
+  }
+  .headin9-tertiary {
+    width: 35rem;
+    margin-left: -6.6rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 35rem;
+    font-size: 1rem;
+    margin-left: -6.5rem;
+  }
+  .entertainment-section {
+    width: 42rem;
+    height: 82rem;
+  }
+  .parallax-title {
+    font-size: 0.8rem;
+  }
+  .buttonss---big {
+    font-size: 0.7rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 42rem;
+  }
+  .heading-guarantee,
+  .home {
+    width: 30rem;
+    margin-left: -2rem;
+  }
+  .grid--22-col {
+    margin-left: 4rem;
+  }
+  .home {
+    width: 30rem;
+    margin-left: -5rem;
+    margin-top: -2rem;
+  }
+  .heading-guarantee {
+    width: 30rem;
+    margin-left: -5rem;
+  }
+  .img-guarantee-graphics {
+    height: 20rem;
+    width: 30rem;
+    margin-left: -2rem;
+  }
+  .dropdown-section {
+    width: 42rem;
+  }
+  .faq {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+
+  .video-section {
+    width: 42rem;
+  }
+  video {
+    width: 35rem;
+    height: 26.3rem;
+    margin-left: 7rem;
+  }
+  .home-section {
+    margin-left: -3rem;
+  }
+}
+
+/* BELOW 681px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 43em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    margin-left: -5rem;
+  }
+  .entertainment-section {
+    width: 40rem;
+    height: 86rem;
+  }
+  .entertainment-paragraph,
+  .entertainment-paragraphs {
+    padding: 1rem;
+    margin-bottom: 10rem;
+  }
+  .parallax-title {
+    font-size: 0.7rem;
+  }
+  .buttonss---big {
+    font-size: 0.6rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 40rem;
+  }
+  .dropdown-section {
+    width: 40rem;
+  }
+  .video-section {
+    width: 40rem;
+  }
+  .preview-textss {
+    left: 30%;
+  }
+  .footer-texts {
+    font-size: 1.4rem;
+  }
+}
+
+/* BELOW 681px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 43em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .reason1-box {
+    width: 37.5rem;
+    margin-left: 2rem;
+  }
+  .reason1 {
+    font-size: 0.8rem;
+  }
+  .why-grid {
+    margin-left: 6rem;
+  }
+  .why {
+    line-height: 1.4;
+    width: 30rem;
+  }
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+  .entertainment-section {
+    width: 38rem;
+    height: 80rem;
+  }
+  .buttonss---big {
+    font-size: 0.6rem;
+    width: 9rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 38rem;
+  }
+  .grid--22-col {
+    margin-left: 2rem;
+  }
+  .dropdown-section {
+    width: 38rem;
+  }
+  .video-section {
+    width: 38rem;
+  }
+  video {
+    width: 30rem;
+    height: 20rem;
+    margin-left: 8rem;
+  }
+  .home-section {
+    margin-left: -5rem;
+  }
+}
+
+/* BELOW 634px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 40em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    margin-left: -6rem;
+  }
+  .photo11-play-graphics {
+    margin-left: 9rem;
+    width: 25rem;
+    height: 20rem;
+  }
+  .grid01-container {
+    margin-left: 6rem;
+    width: 25rem;
+  }
+  .heading-anticipate {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 27rem;
+  }
+  .list--items {
+    width: 30rem;
+    margin-right: -1rem;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .reason1-box {
+    width: 35.5rem;
+    margin-left: 2rem;
+  }
+  .imgs-play-graphics {
+    height: 20rem;
+    margin-left: 11rem;
+    width: 25rem;
+  }
+  .headin9-tertiary {
+    width: 25rem;
+    margin-left: -2rem;
+  }
+  .home9 {
+    margin-left: -2rem;
+    width: 25rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 25rem;
+    font-size: 1rem;
+    margin-left: -2rem;
+  }
+  .entertainment-section {
+    width: 36rem;
+    height: 87rem;
+  }
+  .parallax-title {
+    font-size: 0.6rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 36rem;
+  }
+  .grid--22-col {
+    margin-left: 1rem;
+  }
+  .dropdown-section {
+    width: 36rem;
+  }
+  .video-section {
+    width: 36rem;
+  }
+}
+
+/* BELOW 597px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 38em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    margin-left: -7rem;
+  }
+  .grid01-container {
+    margin-left: 6rem;
+    width: 25rem;
+  }
+  .reason1-box {
+    width: 33rem;
+    margin-left: 2rem;
+  }
+  .why-grid {
+    margin-left: 3rem;
+  }
+  .music-benefit {
+    grid-template-columns: 1fr;
+  }
+  .entertainment-section {
+    width: 34rem;
+    height: 89rem;
+  }
+  .entertainment-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -2rem;
+  }
+  .parallax,
+  .parallaxx {
+    margin-left: 6rem;
+    padding: 8rem;
+    width: 25rem;
+  }
+  .parallax-title {
+    font-size: 0.7rem;
+  }
+  .entertainment-paragraph,
+  .entertainment-paragraphs {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    width: 25rem;
+    margin-left: 6rem;
+  }
+  .parallax {
+    margin-left: 6rem;
+    padding: 8rem;
+    width: 25rem;
+    margin-bottom: -5rem;
+  }
+  .parallaxx {
+    margin-left: 6rem;
+    padding: 8rem;
+    width: 25rem;
+    margin-top: -2.5rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 34rem;
+  }
+  .img-guarantee-graphics {
+    height: 20rem;
+    width: 25rem;
+    margin-left: -0.9rem;
+  }
+  .home {
+    width: 25rem;
+    margin-left: -4rem;
+    margin-top: -2rem;
+  }
+  .heading-guarantee {
+    width: 25rem;
+    margin-left: -4rem;
+  }
+  .dropdown-section,
+  .video-section {
+    width: 34rem;
+  }
+  .footer-texts {
+    font-size: 1.2rem;
+  }
+  .preview-textss {
+    left: 34%;
+    font-size: 0.9rem;
+  }
+}
+/* BELOW 597px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 35em) {
+  .imgs-play-graphics {
+    height: 20rem;
+    margin-left: 9rem;
+    width: 25rem;
+  }
+  .home9 {
+    margin-left: -4rem;
+    width: 25rem;
+  }
+  .headin9-tertiary {
+    width: 25rem;
+    margin-left: -4rem;
+  }
+  .photo11-play-graphics {
+    margin-left: 9rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 25rem;
+    font-size: 1rem;
+    margin-left: -4rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 24rem;
+  }
+  .grid01-container {
+    margin-left: 6rem;
+    width: 20rem;
+  }
+  .list--items {
+    font-size: 0.9rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 25rem;
+    margin-left: 1rem;
+  }
+  .grid--2-col {
+    margin-left: -6rem;
+  }
+  .reason1-box {
+    width: 31rem;
+    margin-left: 2rem;
+  }
+  .reason1 {
+    font-size: 0.7rem;
+  }
+  .why-grid {
+    margin-left: 4rem;
+  }
+  .why {
+    line-height: 1.4;
+    width: 27rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 7rem;
+    width: 25rem;
+    height: 20rem;
+  }
+  .homes {
+    font-size: 0.9rem;
+    margin-left: 0rem;
+    width: 25rem;
+  }
+  .headin---tertiary,
+  .list-items2 {
+    width: 25rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    width: 25rem;
+  }
+  .home1 {
+    font-size: 0.9rem;
+    margin-left: -4rem;
+    width: 25rem;
+  }
+  .headinggg-tertiary {
+    width: 25rem;
+    font-size: 1rem;
+    height: 27rem;
+  }
+  .img-play-graphics {
+    margin-left: 7rem;
+    width: 25rem;
+    height: 20rem;
+    /* margin-top: 5rem; */
+  }
+  .entertainment-section {
+    width: 32rem;
+    height: 89rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 32rem;
+  }
+  .dropdown-section {
+    width: 32rem;
+  }
+  .video-section {
+    width: 32rem;
+  }
+  video {
+    width: 25rem;
+    height: 20rem;
+    margin-left: 7.5rem;
+  }
+  .homes-01 {
+    width: 25rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 25rem;
+    margin-left: 13rem;
+  }
+}
+
+/* BELOW 526px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 33em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .list--items {
+    font-size: 0.9rem;
+    width: 25rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 24rem;
+    margin-left: 1rem;
+  }
+  .reason1-box {
+    width: 29rem;
+    margin-left: 2rem;
+  }
+  .reason1 {
+    font-size: 1rem;
+  }
+
+  .why {
+    line-height: 1.4;
+    width: 25rem;
+  }
+  .section-benefit {
+    width: 27rem;
+  }
+  .grid--2-col {
+    margin-left: -7rem;
+  }
+  .imgs-play-graphics {
+    height: 15rem;
+    margin-left: 12rem;
+    width: 20rem;
+  }
+  .aaalbum-section {
+    height: 43.5rem;
+  }
+  .home9 {
+    margin-left: -1rem;
+    width: 20rem;
+  }
+  .headin9-tertiary {
+    width: 20rem;
+    margin-left: -1rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 20rem;
+    font-size: 1rem;
+    margin-left: -1rem;
+  }
+  .section-benefit {
+    background-color: #f1f1f1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .benefit1 {
+    font-size: 0.9rem;
+  }
+  .benefits {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: -2rem;
+    padding: 2rem;
+  }
+  .box-paragraph {
+    font-size: 1rem;
+  }
+  .entertainment-section {
+    width: 29rem;
+    height: 101rem;
+  }
+  .parallaxx {
+    margin-left: 6rem;
+    padding: 8rem;
+    width: 25rem;
+    margin-top: -3.3rem;
+  }
+  .entertainment-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -4rem;
+  }
+  .dropdown-section,
+  .video-section {
+    width: 29rem;
+  }
+  video {
+    width: 25rem;
+    height: 20rem;
+    margin-left: 6rem;
+  }
+  .grid--22-col {
+    margin-left: -1rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 29rem;
+  }
+  .homes-01 {
+    width: 25rem;
+    margin-left: 11rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 25rem;
+    margin-left: 11rem;
+  }
+}
+
+/* BELOW 483px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 33em) {
+  .section-header {
+    /* height: 4rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    margin-left: -6rem;
+  }
+  .logo-personal {
+    margin-left: -4rem;
+  }
+  .list--items {
+    font-size: 0.9rem;
+    width: 23rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 21rem;
+    margin-left: 1rem;
+  }
+  .heading-anticipate {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: -4rem;
+  }
+  .headingz1-tertiaries {
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 20rem;
+  }
+  .reason1-box {
+    width: 27rem;
+    margin-left: 2rem;
+  }
+  .home-paragraph1 {
+    margin-left: 8rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 8rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .homes {
+    font-size: 0.7rem;
+    margin-left: 0rem;
+    width: 20rem;
+  }
+  .headin---tertiary,
+  .list-items2,
+  .butts222:link,
+  .butts222:visited {
+    width: 20rem;
+  }
+  .home-paragraph2 {
+    margin-left: 12rem;
+  }
+  .home1 {
+    font-size: 0.7rem;
+    margin-left: -4rem;
+    width: 20rem;
+  }
+  .img-play-graphics {
+    margin-left: 8rem;
+    width: 20rem;
+    height: 15rem;
+    /* margin-top: 5rem; */
+  }
+  .headinggg-tertiary {
+    width: 20rem;
+    font-size: 1rem;
+    height: 32rem;
+  }
+  .imgs-play-graphics {
+    height: 15rem;
+    margin-left: 10rem;
+    width: 20rem;
+  }
+  .home9 {
+    margin-left: -3rem;
+    width: 20rem;
+  }
+  .headin9-tertiary {
+    width: 20rem;
+    margin-left: -3rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 20rem;
+    font-size: 1rem;
+    margin-left: -3rem;
+  }
+  .entertainment-section {
+    width: 29rem;
+    height: 101rem;
+    margin-top: 2rem;
+  }
+  .entertainment-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -4rem;
+  }
+  .dropdown-section {
+    width: 29rem;
+  }
+  .title-h {
+    font-size: 1.5rem;
+    margin: 0.8rem;
+  }
+  .video-section {
+    width: 29rem;
+  }
+  video {
+    width: 25rem;
+    height: 20rem;
+    margin-left: 5rem;
+  }
+  .homes-01 {
+    width: 25rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .video-container {
+    margin-left: -3rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 25rem;
+    margin-left: 10rem;
+  }
+  .footer-texts {
+    font-size: 1.1rem;
+  }
+}
+
+/* BELOW 481px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 31em) {
+  .grid--2-col {
+    margin-left: -7rem;
+  }
+  .photo11-play-graphics {
+    margin-left: 8rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .why-grid {
+    margin-left: 3rem;
+  }
+  .entertainment-section {
+    width: 27rem;
+    height: 101rem;
+    margin-top: 2rem;
+  }
+  .entertainment-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -5rem;
+  }
+  .aalbum-section {
+    margin-top: 2rem;
+    width: 27rem;
+  }
+  .img-guarantee-graphics {
+    height: 16rem;
+    width: 23rem;
+    margin-left: -0.9rem;
+  }
+  .home {
+    width: 23.2rem;
+    margin-left: -4rem;
+    margin-top: -2rem;
+  }
+  .heading-guarantee {
+    width: 23.2rem;
+    margin-left: -4rem;
+  }
+  .dropdown-section,
+  .video-section {
+    width: 27rem;
+  }
+  video {
+    width: 23rem;
+    height: 20rem;
+    margin-left: 5rem;
+  }
+  .homes-01 {
+    width: 23rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 23rem;
+    margin-left: 10rem;
+  }
+}
+
+/* BELOW 451px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 29em) {
+  .grid--2-col {
+    margin-left: -8rem;
+  }
+  .reason1-box {
+    width: 24rem;
+    margin-left: 2rem;
+  }
+  .why {
+    line-height: 1.4;
+    width: 22rem;
+  }
+  .img-guarantee-graphics {
+    height: 16rem;
+    width: 20rem;
+    margin-left: -0.9rem;
+  }
+  .home {
+    width: 20.2rem;
+    margin-left: -4rem;
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .heading-guarantee {
+    width: 20rem;
+    margin-left: -4rem;
+  }
+  .section-benefit,
+  .dropdown-section,
+  .video-section,
+  .aalbum-section {
+    width: 25rem;
+  }
+  .entertainment-section {
+    width: 25rem;
+    height: 105rem;
+  }
+  .entertainment-div {
+    margin-left: -3.6rem;
+  }
+  .parallax {
+    width: 20rem;
+  }
+  .parallaxx {
+    width: 20rem;
+    margin-top: -4rem;
+  }
+  .parallax-title {
+    font-size: 1.3rem;
+    margin-left: -2rem;
+    margin-top: -3rem;
+  }
+  .buttonss---big {
+    font-size: 0.7rem;
+    width: 10rem;
+    margin-left: -3rem;
+  }
+  .entertainment-paragraph,
+  .entertainment-paragraphs {
+    width: 20rem;
+  }
+  video {
+    width: 20rem;
+    height: 15rem;
+    margin-left: 5rem;
+  }
+  .homes-01 {
+    width: 20rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .video-paragraph {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+    width: 20rem;
+    margin-left: 10rem;
+  }
+}
+
+/* BELOW 430px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 27em) {
+  .grid--2-col {
+    margin-left: -8rem;
+  }
+  .photo11-play-graphics {
+    margin-left: 8rem;
+    width: 18rem;
+    height: 15rem;
+  }
+  .heading-anticipate {
+    font-size: 0.8rem;
+    width: 18rem;
+    margin-left: 2rem;
+  }
+  .lists1 {
+    gap: 0.5rem;
+  }
+  .list--items {
+    font-size: 0.9rem;
+    width: 21rem;
+  }
+  .reason1-box {
+    width: 23rem;
+    margin-left: 2rem;
+  }
+  .why-grid {
+    margin-left: 2.5rem;
+  }
+  .photo2--play-graphics {
+    margin-left: 8rem;
+    width: 18rem;
+    height: 15rem;
+  }
+  .homes {
+    font-size: 0.6rem;
+    margin-left: 0rem;
+    width: 18rem;
+  }
+  .headin---tertiary,
+  .list-items2,
+  .butts222:link,
+  .butts222:visited {
+    width: 18rem;
+  }
+  .home1 {
+    font-size: 0.7rem;
+    margin-left: -4rem;
+    width: 18rem;
+    text-align: center;
+  }
+  .img-play-graphics {
+    margin-left: 8rem;
+    width: 18rem;
+    height: 15rem;
+  }
+  .headinggg-tertiary {
+    width: 18rem;
+    font-size: 1rem;
+    height: 35rem;
+  }
+  .aaalbum-section {
+    height: 47rem;
+  }
+  .img-guarantee-graphics {
+    height: 16rem;
+    width: 20rem;
+    margin-left: -1.5rem;
+  }
+  .home {
+    width: 20.2rem;
+    margin-left: -4.6rem;
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .heading-guarantee {
+    width: 20rem;
+    margin-left: -4.5rem;
+  }
+  .imgs-play-graphics {
+    height: 15rem;
+    margin-left: 10rem;
+    width: 18rem;
+  }
+  .home9 {
+    margin-left: -3rem;
+    width: 18rem;
+  }
+  .headin9-tertiary {
+    width: 18rem;
+    margin-left: -3rem;
+  }
+  .butt9:link,
+  .butt9:visited {
+    width: 18.3rem;
+    font-size: 1rem;
+    margin-left: -3rem;
+  }
+  .section-benefit,
+  .entertainment-section,
+  .dropdown-section,
+  .video-section,
+  .aalbum-section {
+    width: 23rem;
+  }
+  .entertainment-div {
+    margin-left: -4.6rem;
+  }
+  video {
+    width: 20rem;
+    height: 15rem;
+    margin-left: 4.6rem;
+  }
+}
+
+/* BELOW 403px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 26em) {
+  .section-header {
+    /* width: 26rem; */
+    /* background-color: red; */
+  }
+  .grid--2-col {
+    margin-left: -6.8rem;
+  }
+  .butt1:link,
+  .butt1:visited {
+    width: 19rem;
+    margin-left: 1rem;
+  }
+  .butts222:link,
+  .butts222:visited {
+    width: 20rem;
+  }
+  .reason1-box {
+    width: 22rem;
+    margin-left: 2rem;
+  }
+  .reason1-box {
+    width: 23rem;
+    margin-left: -1rem;
+  }
+  .why-grid {
+    margin-left: -1rem;
+  }
+
+  .why {
+    line-height: 1.4;
+    width: 23rem;
+  }
+  .album-home-sections {
+    width: 23rem;
+    margin-left: -1rem;
+  }
+  .album-home-sections2,
+  .album-home-sectionsz {
+    width: 23rem;
+    margin-left: -2rem;
+  }
+
+  .section-testimonials {
+    width: 27rem;
+    margin-left: -2rem;
+  }
+
+  .section-benefit,
+  .entertainment-section,
+  .dropdown-section,
+  .video-section,
+  .aalbum-section {
+    width: 23rem;
+    margin-left: -1rem;
+  }
+  video {
+    width: 18rem;
+    height: 15rem;
+    margin-left: 4.6rem;
+  }
+  .home-section {
+    margin-left: -5.9rem;
+  }
+
+  button,
+  #album-cover {
+    width: 3rem;
+  }
+  #waveform {
+    width: 3rem;
+  }
+  .footer-texts {
+    font-size: 0.7rem;
+  }
+  .preview-textss {
+    left: 45%;
+    font-size: 0.7rem;
+    bottom: 0.7rem;
+  }
+  footer {
+    width: 25rem;
+  }
+}
+
+/* BELOW 360px(for smaller desktop screen size */
+/* RESPONSIVE SECTION */
+@media (max-width: 23em) {
+  .section-header {
+    /* width: 26rem; */
+    /* background-color: red; */
+  }
+  .album-home-sections2,
+  .album-home-sectionsz {
+    width: 25rem;
+    margin-left: -2rem;
+  }
+  .why {
+    line-height: 1.4;
+    width: 24rem;
+  }
+  .aaalbum-section {
+    height: 47rem;
+    margin-left: -1rem;
+    width: 25rem;
+  }
+  video {
+    width: 18rem;
+    height: 15rem;
+    margin-left: 6rem;
+  }
+  .home-section {
+    margin-left: -4.9rem;
+  }
+}

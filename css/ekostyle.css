@@ -1,0 +1,1097 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Playfair", sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  background-color: #93b0bb;
+}
+
+.header {
+  position: sticky;
+  background: #1b4353;
+  top: 0;
+  height: 8rem;
+  padding-left: 2rem;
+  padding-top: 0.9rem;
+  transition: 0.6s;
+  z-index: 999;
+}
+
+.head-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-bar {
+  font-size: 2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* CAROUSEL SECTION */
+
+.section-class .carousel {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+}
+
+.section-class {
+  display: flex;
+  padding: 0.8rem 3.5rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 32vh;
+  max-width: 130rem;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.carousel img {
+  height: 35rem;
+  width: calc(100% / 3);
+  object-fit: cover;
+  margin-left: 14px;
+  padding: 0.3rem;
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 120rem;
+  position: relative;
+}
+.wrapper,
+.carousel {
+  font-size: 0px;
+  cursor: pointer;
+  /* overflow: hidden; */
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img {
+  pointer-events: none;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #000;
+  cursor: pointer;
+  font-size: 4rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover {
+  background: #f2f2f2;
+}
+.wrapper i:first-child {
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child {
+  right: -22px;
+}
+/* .wrapper-icon {
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  background-color: #fff;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper-icon:first-child {
+  left: -23px;
+
+}
+
+.wrapper-icon:last-child {
+  right: -23px;
+} */
+
+/* TAKING IT HOME ALBUM REVIEW SECTION */
+.display--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 130rem;
+  margin-left: 3rem;
+}
+
+.grid-tags {
+  width: 130%;
+  border-radius: 5%;
+  margin-left: -15rem;
+  margin-top: 2.2rem;
+  height: 5vh;
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+}
+
+.h2 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+}
+.h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #e67e22;
+  margin-top: 1rem;
+}
+
+.text {
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  padding: 3rem 3rem;
+  background-color: #fff;
+  width: 570px;
+  height: 430px;
+  margin-top: 2rem;
+  margin-left: 15rem;
+}
+
+.photo---play {
+  width: 570px;
+  height: 430px;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/eko-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 2%;
+}
+.container-paragraph {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.btnhome:link,
+.btnhome:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btnhome:hover,
+.btn:active {
+  background-color: #cf711f;
+}
+
+.btnhome--big {
+  font-size: 15px;
+  padding: 16px 32px;
+  margin-top: 1rem;
+}
+
+.free {
+  background-color: #f1f1f1;
+  border: 0px solid;
+  margin: 3rem 2rem;
+  height: 10vh;
+}
+
+.free-mixtapes {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-left: 1rem;
+  height: 10vh;
+  padding-top: 2rem;
+}
+
+.frees-icons {
+  height: 3rem;
+  width: 3rem;
+}
+
+/**************************/
+/* TAKING IT HOME SECTION PRICE */
+/**************************/
+
+.album-section {
+  padding: 9.6rem 0;
+  background-color: #f1f1f1;
+  padding: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.subheading {
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+.heading-secondary {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.ekothebeat {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.ekothebeat:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.eko-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.eko-tags {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.4rem;
+  margin-left: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 300;
+}
+
+.tag--eko {
+  background-color: #276076;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 9rem;
+  margin-left: -1rem;
+  gap: 6rem;
+}
+
+.album-title {
+  align-items: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 3.2rem;
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+/* COMING SOON BUTTON */
+.album-titlez {
+  align-items: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 3.2rem;
+  margin-left: 6rem;
+  margin-right: -4rem;
+  margin-top: 3rem;
+}
+
+.album-attribute {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: -2rem;
+  margin-left: 1.5rem;
+  /* gap: 1.6rem; */
+}
+
+.album-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+  margin-left: 3rem;
+}
+
+.taking-it-home-img {
+  width: 100%;
+  height: 37vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/eko-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  border-radius: 5%;
+}
+
+.coming-soon-img {
+  width: 100%;
+  height: 37vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/ekothebeat_comingSoon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  border-radius: 5%;
+}
+
+.heading---tertiaries {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  width: 100%;
+  height: 73vh;
+  border-radius: 5%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.list-item {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1rem;
+}
+
+.list-icon {
+  width: 1.6rem;
+  height: 1.5rem;
+  color: #e67e22;
+}
+
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.buttonhomes:link,
+.buttonhomes:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.buttonhomes:hover,
+.buttonhomes:active {
+  background-color: #cf711f;
+}
+
+.buttonhomes--big {
+  font-size: 15px;
+  padding: 16px 32px;
+  margin-top: -12px;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.buttonz:link,
+.buttonz:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.buttonz:hover,
+.buttonz:active {
+  background-color: #cf711f;
+}
+
+.buttonz--big {
+  font-size: 15px;
+  padding: 16px 32px;
+  margin-top: -12px;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+/* END OF COMING SOON BUTTON */
+
+.frees-icons {
+  color: red;
+}
+
+.free-mixtapes1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-left: 1rem;
+  height: 10vh;
+  padding-top: 2rem;
+}
+
+.price:link,
+.price:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.price:hover,
+.price:active {
+  background-color: #cf711f;
+}
+
+.price--btn {
+  font-size: 15px;
+  padding: 16px 32px;
+}
+
+/* SECTION NO BODY CARES */
+/* TAKING IT HOME ALBUM REVIEW SECTION */
+.display--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 130rem;
+}
+
+.grid-tags {
+  width: 130%;
+  border-radius: 5%;
+  margin-left: -15rem;
+  margin-top: 2.2rem;
+  height: 5vh;
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+}
+
+.h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+}
+.h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #e67e22;
+}
+
+.texts {
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  padding: 2rem 1rem;
+  background-color: #fff;
+
+  width: 570px;
+  height: 430px;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+
+.photo----play {
+  width: 570px;
+  height: 430px;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/eko-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  margin-left: 6rem;
+  border-radius: 2%;
+}
+.container-paragraph {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.display-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 130rem;
+}
+
+.frees {
+  background-color: #93b0bb;
+  border: 0px solid;
+  margin: 3rem 2rem;
+  height: 1%;
+}
+
+.buttoneko:link,
+.buttoneko:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 100px;
+  width: 40%;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.buttoneko:hover,
+.buttoneko:active {
+  background-color: #cf711f;
+}
+
+.buttoneko--big {
+  font-size: 15px;
+  padding: 16px 32px;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+/* FORM SECTION */
+.subscribe {
+  padding-left: 12px;
+  margin-top: 4rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+
+.form-paragraph {
+  background-color: #fff;
+  margin-top: 20rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.form-text {
+  margin-top: 3rem;
+  font-size: 3rem;
+  line-height: 2;
+  font-weight: 200;
+  font-style: italic;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+form.form-section {
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem;
+  margin-bottom: 10rem;
+}
+
+.form-group {
+  margin-bottom: 2.9rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+.form-label {
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.button-submit[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1b4353;
+  height: 5rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.button-submit:hover,
+.button-submit:active {
+  background-color: #528091;
+}
+
+/* .photo-play {
+  width: 550px;
+  height: 412px;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/eko-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 2%;
+} */
+
+.phot-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #276076;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  border-radius: 100%;
+  position: relative;
+}
+
+.phot-play-btn::before {
+  content: "";
+  position: absolute;
+  border: 15px solid#fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom1 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+}
+
+.phot-play-btn::after {
+  content: "";
+  position: absolute;
+  border: 15px solid#fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom2 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+  animation-delay: 0.4s;
+}
+
+.phot-play-btn:link,
+.phot-play-btn:visited {
+  background-color: #1b4353;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  display: block;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-style: normal;
+  justify-content: center;
+}
+
+.phot-play-btn:hover,
+.phot-play-btn:active {
+  background-color: #528091;
+  cursor: pointer;
+}
+
+@keyframes bloom1 {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes bloom2 {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.displays-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: black;
+}
+
+/* GRAPHICS OVERLAY */
+
+.ekos-play {
+  width: 97%;
+  height: 35vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../img/eko-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin: 5px;
+}
+
+.photo-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #276076;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  border-radius: 100%;
+  position: relative;
+}
+
+.photo-play-btn::before {
+  content: "";
+  position: absolute;
+  border: 15px solid#fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom1 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+}
+
+.photo-play-btn::after {
+  content: "";
+  position: absolute;
+  border: 15px solid#fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom2 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+  animation-delay: 0.4s;
+}
+
+.photo-play-btn:link,
+.photo-play-btn:visited {
+  background-color: #1b4353;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  display: block;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-style: normal;
+  justify-content: center;
+}
+
+.photo-play-btn:hover,
+.photo-play-btn:active {
+  background-color: #528091;
+  cursor: pointer;
+}
+
+@keyframes bloom1 {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes bloom2 {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #333;
+  color: #fff;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+#waveform-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 20px;
+}
+
+#waveform {
+  width: 30%;
+  height: 40px;
+  margin: 0 5px 10px;
+  position: relative;
+}
+
+#waveform-controls {
+  display: flex;
+  align-items: center;
+  /* margin-left: 20px; */
+}
+
+button {
+  background-color: #1b4353;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 75px;
+  height: 75px;
+}
+
+.button-controller {
+  background-color: #fff;
+  color: #276076;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button-controller::before {
+  content: "";
+  position: absolute;
+  border: 15px solid #fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom1 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+}
+
+.button-controller::after {
+  content: "";
+  position: absolute;
+  border: 15px solid #fff;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  animation: bloom2 1.5s linear infinite;
+  opacity: 0;
+  z-index: 1;
+  animation-delay: 0.4s;
+}
+
+#album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 2;
+}
+.preview-text {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 25%;
+  font-size: 1.6rem;
+  transform: translateX(-20%);
+  background-color: #1b4353;
+}
+.footer-text {
+  font-size: 2.3rem;
+}
+#album-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#album-artist {
+  font-size: 14px;
+  color: #666;
+}
+
+#album-cover {
+  width: 75px;
+  height: 75px;
+  border-radius: 0;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* VOLUME CONTROL*/
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15rem;
+}
+
+.volume-control input[type="range"] {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.volume-control input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Additional styles for the speaker icon */
+.volume-control::before {
+  content: "\1F50A";
+  font-size: 5rem;
+  margin-right: 5px;
+  color: #fff;
+}
+
+/* @keyframes bloom1 {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes bloom2 {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+  }
+} */

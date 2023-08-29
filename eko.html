@@ -5,28 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    
-    
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="ekostyle.css">
-    <link rel="stylesheet" href="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.css">
 
-   
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/ekostyle.css" />
+    <link rel="stylesheet" href="css/quaries.css" />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.css"
+    /> -->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
 
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- <script defer src="js/script.js"></script> -->
     <title>EkoTheBeat Webpage</title>
   </head>
   <body>
-    
     <header class="header">
       <div class="head-nav">
         <a href="#">
@@ -46,68 +60,83 @@
 
     <section class="section-class">
       <div class="wrapper">
-        <ion-icon
+        <!-- <ion-icon
           name="chevron-back-outline"
           id="left"
           class="wrapper-icon"
-        ></ion-icon>
-
+        ></ion-icon> -->
+        <i id="left" class="fa-solid fa-angle-left"></i>
         <div class="carousel">
-          <img src="img/eko-9.png" alt="img" />
-          <img src="img/pexels-askar-abayev-6189928.jpg" alt="img" />
-          <img src="img/PSX_20230126_182332.png" alt="img" />
-          <img src="img/jesus.jpg" alt="img" />
-          <img src="img/eko-9.png" alt="img" />
-          <img src="img/pexels-rdne-stock-project-6192550.jpg" alt="img" />
-          <img src="img/Untitled752_20230215173339.png" alt="img" />
-          <img src="img/eko-9.png" alt="img" />
+          <img src="img/eko-9.png" alt="img" draggable="false" />
+          <img
+            src="img/pexels-askar-abayev-6189928.jpg"
+            alt="img"
+            draggable="false"
+          />
+          <img src="img/PSX_20230126_182332.png" alt="img" draggable="false" />
+          <img src="img/jesus.jpg" alt="img" draggable="false" />
+          <img src="img/eko-9.png" alt="img" draggable="false" />
+          <img
+            src="img/pexels-rdne-stock-project-6192550.jpg"
+            alt="img"
+            draggable="false"
+          />
+          <img
+            src="img/Untitled752_20230215173339.png"
+            alt="img"
+            draggable="false"
+          />
+          <img src="img/eko-9.png" alt="img" draggable="false" />
         </div>
-        <ion-icon
+        <i id="right" class="fa-solid fa-angle-right"></i>
+        <!-- <ion-icon
           name="chevron-forward-outline"
           id="right"
           class="wrapper-icon"
-        ></ion-icon>
+        ></ion-icon> -->
       </div>
     </section>
-    
+
     <!--ANIMATION  -->
-    <section class="display-grid">
+    <section class="display--grid">
       <div class="photo---play">
         <div class="phot-play-btn">
           <ion-icon name="play-outline"></ion-icon>
         </div>
       </div>
       <!-- <div class="grid-tags"> -->
-        <div class="text">
-          <h2 class="h2"><span><strong>Taking it home</strong></span></h2>
-          <h3 class="h3">Album review</h3>
-          <p class="container-paragraph">
-            Have you have songs that give a positive atmosphere that you can
-            listen to anywhere coupled with amazing lyrics with a good beat
-            that connects to your soul? If you no, then Ekothebeat got you
-            fully covered.
-          </p>
+      <div class="text">
+        <h2 class="h2">
+          <span><strong>Taking it home</strong></span>
+        </h2>
+        <h3 class="h3">Album review</h3>
+        <p class="container-paragraph">
+          Have you have songs that give a positive atmosphere that you can
+          listen to anywhere coupled with amazing lyrics with a good beat that
+          connects to your soul? If you no, then Ekothebeat got you fully
+          covered.
+        </p>
 
-          <p class="container-paragraph">
-            There's something for every mood and moment in this captivating list of music albumsof discovering new sounds and letting the melodies transport you to different worldS. Enjoy the adventure!
-          </p>
-          <a class="btnhome btnhome--big" href="#">Buy albums</a>
-        </div>
-      
+        <p class="container-paragraph">
+          There's something for every mood and moment in this captivating list
+          of music albumsof discovering new sounds and letting the melodies
+          transport you to different worldS. Enjoy the adventure!
+        </p>
+        <a class="btnhome btnhome--big" href="#">Buy albums</a>
+      </div>
     </section>
-
 
     <!-- PREMIUM SECTION -->
     <section class="free">
       <div class="freebies">
         <p class="free-mixtapes">
-          <ion-icon class="free-icons" name="musical-notes-outline"></ion-icon>
+          <ion-icon class="frees-icons" name="musical-notes-outline"></ion-icon>
           <span><strong>free premium mixtape</strong></span>
         </p>
       </div>
     </section>
 
-  <!-- ????? -->
+    <!-- ????? -->
     <section class="displays-grids">
       <div class="ekos-play">
         <div class="photo-play-btn">
@@ -131,17 +160,16 @@
       </div>
     </section>
 
-    
     <section class="free">
       <div class="freebies">
         <p class="free-mixtapes">
-          <ion-icon class="free-icons" name="musical-notes-outline"></ion-icon>
+          <ion-icon class="frees-icons" name="musical-notes-outline"></ion-icon>
           <span><strong>premium albums</strong></span>
         </p>
       </div>
     </section>
 
-    <!-- TAKING IT HOME SECTION -->
+    <!-- TAKING IT HOME SECTION PRIZE -->
     <section class="album-section">
       <div class="container center-text">
         <span class="subheading"> EkoTheBeat: </span>
@@ -169,14 +197,12 @@
         </div>
 
         <div class="ekothebeat">
-
           <div class="coming-soon-img">
             <div class="photo-play-btn">
               <ion-icon name="play-outline"></ion-icon>
             </div>
           </div>
-          
-          
+
           <div class="eko-content">
             <div class="eko-tags">
               <span class="tag tag--eko">BemaMusic</span>
@@ -187,7 +213,7 @@
           </div>
         </div>
 
-        <div class="diets">
+        <div class="play-list">
           <h3 class="heading---tertiaries">Taking it home album playlist</h3>
           <ul class="list">
             <li class="list-item">
@@ -260,42 +286,44 @@
 
     <section class="free">
       <div class="freebies">
-        <p class="free-mixtapes">
-          <ion-icon class="free-icons" name="flame-outline"></ion-icon>
+        <p class="free-mixtapes1">
+          <ion-icon class="frees-icons" name="flame-outline"></ion-icon>
           <span><strong>Hot deals you can not afford to miss</strong></span>
         </p>
       </div>
     </section>
 
-    <!-- NOBODY CARES SECTION -->
-    <section class="display-grid">
+    <section class="display--grid">
       <div class="photo----play">
         <div class="phot-play-btn">
           <ion-icon name="play-outline"></ion-icon>
         </div>
       </div>
-      <div class="grid-nobody-cares">
-        <div class="text_2">
-          <h2 class="h2"><span><strong>NOBODY CARES BUT YOU</strong></span></h2>
-          
-          <p class="container-paragraph">
-            Discover a precious musical gem of remarkable quality, an album
-            that guarantees to elevate your spirits and captivate you with
-            enchanting tracks like "Prepare" and "We Got a Way to Love," among
-            many others. With a collection of 21 captivating songs, this album
-            will keep you dancing and worshipping, ensuring it becomes a
-            cherished possession without any subscriptions or undisclosed fees.
-          </p>
+      <!-- <div class="grid-tags"> -->
+      <div class="texts">
+        <h2 class="h2">
+          <span><strong>NOBODY CARES BUT YOU</strong></span>
+        </h2>
+        <h3 class="h3">Album review</h3>
+        <p class="container-paragraph">
+          Discover a precious musical gem of remarkable quality, an album that
+          guarantees to elevate your spirits and captivate you with enchanting
+          tracks like "Prepare" and "We Got a Way to Love," among many others.
+          With a collection of 21 captivating songs, this album will keep you
+          dancing and worshipping, ensuring it becomes a cherished possession
+          without any subscriptions or undisclosed fees.
+        </p>
 
-          <p class="container-paragraph">
-            Each of these albums offers a distinctive musical journey, and you can explore them to find the one that resonates with your tastes and emotions. Enjoy the adventure! 
-          </p>
-          <a class="buttoneko buttoneko--big" href="#">Buy albums</a>
-        </div>
-      
+        <p class="container-paragraph">
+          Each of these albums offers a distinctive musical journey, and you can
+          explore them to find the one that resonates with your tastes and
+          emotions. Enjoy the adventure!
+        </p>
+        <a class="buttoneko buttoneko--big" href="#">Buy album</a>
+      </div>
     </section>
 
-      <!-- FORM SECTION -->
+    <!-- FORM SECTION -->
     <section>
       <div class="form">
         <div>
@@ -330,7 +358,7 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="buttonn">Submit</button>
+            <button type="submit" class="button-submit">Submit</button>
           </form>
         </div>
         <div class="form-text">
@@ -340,96 +368,212 @@
             And when things get tough, just listen to our songs and remember
             that there are always better ways of doing things!
           </p>
-          <button type="submit" class="buttonn">Get The Album</button>
+          <button type="submit" class="button-submit">Get The Album</button>
         </div>
       </div>
     </section>
 
-    <section class="frees">
-      
-         
-      
-    </section>
-
-    
-
-
-
     <footer>
       <div id="waveform-controls">
         <button id="play-pause-button">&#9658;</button>
-        <!-- <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1"> -->
       </div>
-      <img src="img/eko-9.png" alt="Album Cover" id="album-cover">
+      <img src="img/eko-9.png" alt="Album Cover" id="album-cover" />
       <div id="waveform"></div>
-      <div>Taking Home Album by EkoTheBeat</div>
-
-      
-
+      <p class="preview-text">Product Preview</p>
+      <div class="footer-text">Taking Home Album by EkoTheBeat</div>
+      <!-- Volume Control -->
+      <div class="volume-control">
+        <input
+          type="range"
+          id="volumeSlider"
+          min="0"
+          max="100"
+          value="50"
+          step="1"
+        />
+      </div>
     </footer>
 
-    <script
-    type="module"
-    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-  ></script>
-  <script
-    nomodule=""
-    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-  ></script>
-     <!-- PREMIUM SECTION -->
-     
+    <!-- <script src="wavesurfer.min.js"></script> -->
+    <script>
+      "use strict";
+      document.addEventListener("DOMContentLoaded", function () {
+        // Create a WaveSurfer instance
+        const waveform = WaveSurfer.create({
+          container: "#waveform",
+          waveColor: "#f1f1f1",
+          progressColor: "#1b4353",
+          height: 40,
+          barWidth: 2,
+          barRadius: 2,
+          responsive: true,
+        });
 
-    <!-- Add the WaveSurfer.js library -->
-    <!-- <script src="/path/to/your/scripts/wavesurfer.min.js"></script> -->
-<script src="https://unpkg.com/wavesurfer.js"></script>
+        // Load the audio file
+        waveform.load("media/ekosong.mp3");
 
+        // Volume control
+        const volumeSlider = document.getElementById("volume-slider");
+        if (volumeSlider) {
+          // Ensure the element exists before attaching event listener
+          waveform.on("ready", function () {
+            volumeSlider.addEventListener("input", function () {
+              waveform.setVolume(volumeSlider.value);
+            });
+          });
+        } else {
+          console.warn('Element with ID "volume-slider" not found');
+        }
 
-<!-- Your custom JavaScript -->
-<script>
-  // Create a WaveSurfer instance
-  const waveform = WaveSurfer.create({
-    container: '#waveform',
-    waveColor: "#f1f1f1",
-        progressColor: "#1b4353",
-        height: 40,
-        barWidth: 2,
-        barRadius: 2,
-        responsive: true
-    
-  });
+        // Play and pause control
+        const playPauseButton = document.getElementById("play-pause-button");
+        if (playPauseButton) {
+          // Ensure the element exists before attaching event listener
+          playPauseButton.addEventListener("click", function () {
+            if (waveform.isPlaying()) {
+              waveform.pause();
+              playPauseButton.innerHTML = "&#9658;"; // Display play icon
+            } else {
+              waveform.play();
+              playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
+            }
+          });
+        } else {
+          console.warn('Element with ID "play-pause-button" not found');
+        }
+      });
 
- 
+      // CAROUSEL JS
+      const carousel = document.querySelector(".carousel"),
+        firstImg = carousel.querySelectorAll("img")[0],
+        arrowIcons = document.querySelectorAll(".wrapper i");
 
-  // Load the audio file
-  waveform.load('media/ekosong.mp3');
-  
+      let isDragStart = false,
+        isDragging = false,
+        prevPageX,
+        prevScrollLeft,
+        positionDiff;
 
-  // Volume control
-  const volumeSlider = document.getElementById('volume-slider');
-  waveform.on('ready', function() {
-    volumeSlider.addEventListener('input', function() {
-      waveform.setVolume(volumeSlider.value);
-    });
-  });
+      const showHideIcons = () => {
+        // showing and hiding prev/next icon according to carousel scroll left value
+        let scrollWidth = carousel.scrollWidth - carousel.clientWidth; // getting max scrollable width
+        arrowIcons[0].style.display =
+          carousel.scrollLeft == 0 ? "none" : "block";
+        arrowIcons[1].style.display =
+          carousel.scrollLeft == scrollWidth ? "none" : "block";
+      };
 
-  // Play and pause control
-  const playPauseButton = document.getElementById('play-pause-button');
-  playPauseButton.addEventListener('click', function() {
-    if (waveform.isPlaying()) {
-      waveform.pause();
-      playPauseButton.innerHTML = '&#9658;'; // Display play icon
-    } else {
-      waveform.play();
-      playPauseButton.innerHTML = '&#10074;&#10074;'; // Display pause icon
-    }
-  });
-</script>
+      arrowIcons.forEach((icon) => {
+        icon.addEventListener("click", () => {
+          let firstImgWidth = firstImg.clientWidth + 14; // getting first img width & adding 14 margin value
+          // if clicked icon is left, reduce width value from the carousel scroll left else add to it
+          carousel.scrollLeft +=
+            icon.id == "left" ? -firstImgWidth : firstImgWidth;
+          setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
+        });
+      });
 
+      const autoSlide = () => {
+        // if there is no image left to scroll then return from here
+        if (
+          carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) >
+            -1 ||
+          carousel.scrollLeft <= 0
+        )
+          return;
 
- 
+        positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
+        let firstImgWidth = firstImg.clientWidth + 14;
+        // getting difference value that needs to add or reduce from carousel left to take middle img center
+        let valDifference = firstImgWidth - positionDiff;
 
+        if (carousel.scrollLeft > prevScrollLeft) {
+          // if user is scrolling to the right
+          return (carousel.scrollLeft +=
+            positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff);
+        }
+        // if user is scrolling to the left
+        carousel.scrollLeft -=
+          positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+      };
 
-   
+      const dragStart = (e) => {
+        // updatating global variables value on mouse down event
+        isDragStart = true;
+        prevPageX = e.pageX || e.touches[0].pageX;
+        prevScrollLeft = carousel.scrollLeft;
+      };
 
+      const dragging = (e) => {
+        // scrolling images/carousel to left according to mouse pointer
+        if (!isDragStart) return;
+        e.preventDefault();
+        isDragging = true;
+        carousel.classList.add("dragging");
+        positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
+        carousel.scrollLeft = prevScrollLeft - positionDiff;
+        showHideIcons();
+      };
+
+      const dragStop = () => {
+        isDragStart = false;
+        carousel.classList.remove("dragging");
+
+        if (!isDragging) return;
+        isDragging = false;
+        autoSlide();
+      };
+
+      carousel.addEventListener("mousedown", dragStart);
+      carousel.addEventListener("touchstart", dragStart);
+
+      document.addEventListener("mousemove", dragging);
+      carousel.addEventListener("touchmove", dragging);
+
+      document.addEventListener("mouseup", dragStop);
+      carousel.addEventListener("touchend", dragStop);
+      // const firstImg = carousel.querySelector(".img");
+      // const arrowIcons = document.querySelectorAll(".carousel.icon");
+
+      // let isDragStart = false,
+      //   prevPageX,
+      //   prevScrollLeft;
+      // let firstImgWidth = firstImg.clientWidth + 14;
+      // const showHideIcons = () => {
+      //   arrowIcons[0].style.display =
+      //     carousel.scrollLeft === 0 ? "none" : "block";
+      // };
+
+      // arrowIcons.forEach((icon) => {
+      //   icon.addEventListener("click", () => {
+      //     carousel.scrollLeft +=
+      //       icon.id === "left" ? -firstImgWidth : firstImgWidth;
+      //     setTimeout(showHideIcons, 60);
+      //   });
+      // });
+
+      // const dragStart = (e) => {
+
+      //   isDragStart = true;
+      //   prevPageX = e.pageX;
+      //   prevScrollLeft = carousel.scrollLeft;
+      // };
+
+      // const dragging = (e) => {
+
+      //   if (!isDragStart) return;
+      //   let positionDiff = e.pageX - prevPageX;
+      //   carousel.scrollLeft = prevScrollLeft - positionDiff;
+      // };
+
+      // const dragStop = () => {
+      //   isDragStart = false;
+      // };
+
+      // carousel.addEventListener("mousedown", dragStart);
+      // carousel.addEventListener("mousemove", dragging);
+      // carousel.addEventListener("mouseup", dragStop);
+    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
