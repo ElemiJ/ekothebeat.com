@@ -8,7 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     
-<link rel="stylesheet" href="buyalbum.css" />
+<link rel="stylesheet" href="css/buyalbum.css" />
+<link rel="stylesheet" href="css/media.css" />
 
     <script
       type="module"
@@ -20,6 +21,7 @@
     ></script>
 
     <script src="script.js" defer></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
 
     <title>EkoTheBeat Webpage</title>
   </head>
@@ -46,12 +48,12 @@
 
      <section class="album-home-sections">
       <div class="container grid grid--2-col">
-      
-          <div class="photo11-play-graphics">
-            <div class="phot-play-btn">
-              <ion-icon name="play-outline"></ion-icon>
-            </div>
+        <div class="photo11-play-graphics">
+          <div class="phot-play-btn">
+            <ion-icon name="play-outline"></ion-icon>
           </div>
+        </div>
+         
           <div class="grid01-container">
         <h2 class="heading-anticipate">
           <span class="get">GET THE</span> HIGHLY ANTICIPATED <span class="get">ALBUM</span> NOW! 
@@ -71,8 +73,6 @@
             <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
             <span>Discover an incredible blend of sound, knowledge, and truth.</span>
           </li>
-
-
           <li class="list--items">
             <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
 
@@ -85,10 +85,14 @@
           </li>
 
           <a class="butt1 butt1--big" href="#">Buy albums</a>
+          
         </ul>
       </div>
+      
     </div>
   </section>
+
+  
  
        
        
@@ -99,7 +103,7 @@
       <div class="reason1-box">
       <h2 class="reason1"><strong>Experience the compelling reasons to tune in to EkoTheBeat's music.</strong></h2>
     </div>
-      <div class="container grid grid--2-col">
+      <div class="why-grid">
         <div class="why">
           <p>If you are looking for a way to help keep your body healthy, while engaging your mind with spiritual thoughts, then take a listen to this album.</p>
           <p>How it helps you live a healthy lifestyle Listen here or go to the store right away and get your copy today. </p>
@@ -118,7 +122,7 @@
 
 
     <!-- STEP THREE -->
-    <section class="album-home-sections">
+    <section class="album-home-sectionsz">
       <div class="container grid grid--2-col">
       
           <div class="photo2--play-graphics">
@@ -127,12 +131,12 @@
             </div>
           </div>
       
-        <div class="">
+        <div class="home-paragraph1">
           <div class="homes">
           <h2>EkoTheBeat: Taking It Home</h2>
           
-        </div>
-          <p class="headin---tertiary">You will be encouraged to have a closer relationship with God and share the power of His miracles. Through songs that share Christ's peace, you will;</p></p> 
+         </div>
+          <li class="headin---tertiary">You will be encouraged to have a closer relationship with God and share the power of His miracles. Through songs that share Christ's peace, you will;</li> 
          
             <li class="list-items2">
               <ion-icon class="list-icon2"name="heart-outline"></ion-icon>
@@ -177,16 +181,16 @@
     <section class="album-home-sections2">
       <div class="container grid grid--2-col">
        
-        <div class="">
+        <div class="home-paragraph2">
           <div class="home1">
           <h2>EkoTheBeat: Taking It Home</h2>
           
           </div>
         <div class="headinggg-tertiary">
-          <p>This album will warm your heart, make you sober and encourage you to remain motivated.</p><br>
-          <p>With its vibrant energy, abundant hope, and unwavering strength, this album becomes a beacon of inspiration, guiding you through life's trials and triumphs.</p><br>
-          <p>Immerse yourself in the harmonious notes and soul-stirring lyrics, for they serve as a transformative tool that trains your mind to discern God's eternal Truth. With each resonating, intentions, and actions with the divine purpose that resides within you.</p><br>
-          <p>Allow this musical journey to kindle your flame of faith, illuminating the path of righteousness and awakening a profound connection with the divine.</p>
+          <p class="hd">This album will warm your heart, make you sober and encourage you to remain motivated.</p><br>
+          <p class="hd">With its vibrant energy, abundant hope, and unwavering strength, this album becomes a beacon of inspiration, guiding you through life's trials and triumphs.</p><br>
+          <p class="hd">Immerse yourself in the harmonious notes and soul-stirring lyrics, for they serve as a transformative tool that trains your mind to discern God's eternal Truth. With each resonating, intentions, and actions with the divine purpose that resides within you.</p><br>
+          <p class="hd">Allow this musical journey to kindle your flame of faith, illuminating the path of righteousness and awakening a profound connection with the divine.</p>
           <!-- <h2 class="peace">Through songs that share Christ's peace, you will; </h2> -->
         </div>
         </div>
@@ -222,6 +226,8 @@
       <img src="img/elemi.PNG" class="testimonial-img" alt="">
       <p class="testimonial-name">&mdash; Augusta Wills</p>
       </div>
+
+    
   </div>
 </section>
 
@@ -235,7 +241,7 @@
         </div>
       </div>
   </div>
-    <div class="">
+    <div class="class-eko">
       <div class="home9">
       <h2>Taking It Home</h2>
       
@@ -318,7 +324,7 @@
 </section>
 
 <section class="aalbum-section">
-  <div class="container grid grid--2-col">
+  <div class="container grid grid--22-col">
     <div class="ekothebeat">
       <div class="img-guarantee-graphics">
         <div class="phot-play-btn">
@@ -327,7 +333,7 @@
       </div>
     </div>
    
-    <div class="">
+    <div class="home-paragraph">
       <div class="home">
       <h2>EkoTheBeat: Taking It Home</h2>
       
@@ -444,7 +450,7 @@ faqs.forEach((faq) => {
     </video>
   </div>
 
-  <div class="">
+  <div class="home-section">
     <div class="homes-01">
     <h2>EkoTheBeat: Taking It Home</h2>
     
@@ -459,13 +465,72 @@ faqs.forEach((faq) => {
 </div>
 </section>
 
-<footer> 
-    <div>
-    
-       <p class="footer-p"><strong> &copy;2023 BemaMusic. All rights reserved. </strong></p>
-    </div>
- 
-</footer>
+<footer>
+      <div id="waveform-controls">
+        <button id="play-pause-button">&#9658;</button>
+      </div>
+      <img src="img/eko-9.png" alt="Album Cover" id="album-cover" />
+      <div id="waveform"></div>
+      <div class="container2">
+      </div>
+      <p class="preview-textss">Product Preview</p>
+      <div class="footer-texts">Taking Home Album by EkoTheBeat</div>
+    </footer>
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="wavesurfer.min.js"></script>
+
+    <!-- Your custom JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Create a WaveSurfer instance
+        const waveform = WaveSurfer.create({
+          container: "#waveform",
+          waveColor: "#f1f1f1",
+          progressColor: "#1b4353",
+          height: 40,
+          barWidth: 2,
+          barRadius: 2,
+          responsive: true,
+        });
+
+        // Load the audio file
+        waveform.load("media/ekosong.mp3");
+
+        // Volume control
+        const volumeSlider = document.getElementById("volume-slider");
+        if (volumeSlider) {
+          // Ensure the element exists before attaching event listener
+          waveform.on("ready", function () {
+            volumeSlider.addEventListener("input", function () {
+              waveform.setVolume(volumeSlider.value);
+            });
+          });
+        } else {
+          console.warn('Element with ID "volume-slider" not found');
+        }
+
+        // Play and pause control
+        const playPauseButton = document.getElementById("play-pause-button");
+        if (playPauseButton) {
+          // Ensure the element exists before attaching event listener
+          playPauseButton.addEventListener("click", function () {
+            if (waveform.isPlaying()) {
+              waveform.pause();
+              playPauseButton.innerHTML = "&#9658;"; // Display play icon
+            } else {
+              waveform.play();
+              playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
+            }
+          });
+        } else {
+          console.warn('Element with ID "play-pause-button" not found');
+        }
+      });
+    </script>
+  </body>
+</html>
+
 
 
   </body>

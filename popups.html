@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Notification Popup</title>
+    <link rel="stylesheet" href="css/popups.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="head-nav">
+        <a href="#">
+          <img
+            class="logo"
+            alt="Ekothebeat logo"
+            src="img/Eko_logo_TakingItHome_YellowBorder.png"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav-bar">
+            <li><a class="nav-bar" href="#">EKOTHEBEAT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="content">
+      <h1 class="enjoy">
+        Enjoy the blessing that comes with consuming faith-based music
+      </h1>
+      <p class="enjoy-paragraph">
+        Experience the divine fusion of faith and rhythm in "Taking It Home,"
+        the ultimate Christian afrobeat album. Elevate your soul with uplifting
+        melodies and infectious beats that will make you dance and reflect.
+        Don't miss out – grab your copy now and let the music take you on a
+        <mark class="no-code">Journey of faith and joy.</mark>
+      </p>
+      <img src="img/eko-9.png" class="eko-graphics" alt="eko" />
+    </div>
+    
+    <div class="popup" id="popup">
+      <!-- <p>Thank you for your purchase!</p> -->
+      <p>
+        <span id="customername">Jennifer Elemi from Nigeria</span>
+      </p>
+      <p>
+        <span id="purchase-album">Purchased the Taking Home Album
+      </p>
+      <p>
+        <span id="purchaseTime">27 minutes ago</span> 
+      </p>
+      
+    </div>
+
+    <section>
+      <div class="grid-container">
+        <div class="grid-item">
+          <ul class="list">
+            <li class="list--items">
+              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Experience the divine fusion of faith and Afrobeat rhythms in "Taking It Home</li>
+             <li class="list--items"> <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Let EkoTheBeat's album infuse your day with gospel joy and Afrobeat energy.</li>
+            <li class="list--items">  <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Celebrate unity through the harmonious blend of Christian and Afrobeat sounds.</li>
+            <li class="list--items">  <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Elevate your spirit with the soul-nourishing melodies of "Taking It Home.</li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <ul class="list">
+            <li class="list--items">
+              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
+              <span>Get inspired by the album that bridges genres and brings faith to life.</span>
+            </li>
+            <li class="list--items">
+              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
+              <span>Immerse yourself in the uplifting beats of EkoTheBeat's Afrobeat gospel fusion.</span>
+            </li>
+            <li class="list--items">
+              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
+              <span>Connect globally through the album that transcends borders with its vibrant melodies.</span>
+            </li>
+            <li class="list--items">
+              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
+              <span>Let the album be your soundtrack for faith, culture, and musical celebration.</span>
+            </li>
+          </ul>
+         <div class="btnclick">
+          <a class="buttonhomes buttonhomes--big" href="#">Get The Album Now→</a>
+         </div>
+        </div>
+       
+        
+      </div>
+        
+    </section>
+   
+
+  <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script>
+     const popup = document.getElementById("popup");
+
+    const names = [
+    "Jennifer Elemi from Nigeria",
+    "John Smith from USA",
+    "Worthy Tim from Spain",
+   "Alex Wang from China"
+  // users names here
+];
+
+const intervals = [
+  5000, // 5 seconds
+  8000, // 8 seconds
+  3000, // 3 seconds
+  6000  // 6 seconds
+  // Time intervals here
+];
+
+let currentIndex = 0;
+
+function showPopup(name) {
+  const customerName = document.getElementById("customername");
+  customerName.textContent = name;
+  popup.style.bottom = "0";
+  setTimeout(() => hidePopup(), intervals[currentIndex]); // Hide after the specified interval
+}
+
+function hidePopup() {
+  popup.style.bottom = "-100px";
+  currentIndex = (currentIndex + 1) % names.length;
+  setTimeout(() => cyclePopups(), 1000); // Show the next popup after 1 second
+}
+
+function cyclePopups() {
+  const name = names[currentIndex];
+  showPopup(name);
+}
+
+// Start the popup cycle when the page loads
+cyclePopups();
+
+
+
+    </script>
+    
+  </body>
+</html>

@@ -11,7 +11,8 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="silver.css" />
+    <link rel="stylesheet" href="css/bronze.css" />
+    <link rel="stylesheet" href="css/bronzeqaurries.css" />
 
     <script
       type="module"
@@ -23,10 +24,11 @@
     ></script>
 
     <script src="script.js" defer></script>
-    <title>Silver Page</title>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <title>Bronze Page</title>
   </head>
   <body>
-     <header class="section_header_silver">
+     <header class="section-header">
       <div class="header_navigations">
         <a href="#">
           <img
@@ -58,7 +60,7 @@
         <div class="countdown-percent">
           <p>Get 70% OFF 🔥 & Enter the Contest for a
             Chance to win $100 when we reach 1000 sales</p>
-            <a class="butt_01 butt_01_big" href="#">Get The Album Now</a>
+            <a class="butt__1 butt__1__big" href="#">Get The Album Now</a>
         </div>
       </div>
      
@@ -75,8 +77,8 @@
               <ion-icon name="play-outline"></ion-icon>
             </div>
           </div>
-          <div class="grid01-container">
-        <h2 class="heading_anticipate">
+          <div class="grid0-1-container">
+           <h2 class="heading_anticipate">
           <span class="get">GET THE</span> HIGHLY ANTICIPATED <span class="get">ALBUM</span> NOW! 
          </h2>
          <h3 class="headingz1-tertiaries">We know you will love this music, but you must try it to know for yourself.</h3>
@@ -120,7 +122,7 @@
   <div class="reason1_box">
   <h2 class="reason_1"><strong>Experience the compelling reasons to tune in to EkoTheBeat's music.</strong></h2>
 </div>
-  <div class="container grid grid--2-col">
+  <div class="container grid grid--2-coll">
     <div class="why_1">
       <p>If you are looking for a way to help keep your body healthy, while engaging your mind with spiritual thoughts, then take a listen to this album.</p>
       <p>How it helps you live a healthy lifestyle Listen here or go to the store right away and get your copy today. </p>
@@ -157,13 +159,7 @@
           <p class="headin__tertiary">You'll be encouraged to have a closer relationship with God and share the power of his miracles. You will benefit from better sleep and more energy!</p>
       
           <p class="headin__tertiary">Some will notice they feel more enjoyment in their activities. Your mind and body will feel relaxed and your digestion will improve. You will sleep better It relieves stress and anxiety</p>
-          <!-- <p class="headin__tertiary">Some will notice they feel more enjoyment in their activities. Your mind and body will feel relaxed and your digestion will improve. You will sleep better It relieves stress and anxiety</p> -->
-       
-         
-                 
-
             <a class="butts222 butts222--big" href="#">Buy Now</a>
-          </ul>
         </div>
     </section>
 
@@ -172,7 +168,7 @@
     <section class="album_home_sections2">
       <div class="container grid grid--2-col">
        
-        <div class="">
+        <div class="headings_section">
           <div class="home_all1">
           <h2>EkoTheBeat: Taking It Home</h2>
           
@@ -230,7 +226,7 @@
         </div>
       </div>
   </div>
-    <div class="">
+    <div class="headin9_section">
       <div class="home9">
       <h2>Taking It Home</h2>
       
@@ -325,7 +321,7 @@
       </div>
     </div>
    
-    <div class="">
+    <div class="guarantee-div">
       <div class="guarantee_home">
       <h2>EkoTheBeat: Taking It Home</h2>
       
@@ -338,8 +334,7 @@
   </div>
 </section>
 
-
- <!-- DROP DOWN SECTION  -->
+<!-- DROP DOWN SECTION  -->
 <section class="dropdown-section">
   <h2 class="title">NEED HELP?</h2>
   <h2 class="title-h">Frequently Asked Questions</h2>
@@ -437,13 +432,13 @@ faqs.forEach((faq) => {
 
 <section class="video_section">
  <div class="video_container">
-  <div class="video_wrapper">
+    <div class="video_wrapper">
     <video controls>
       <source src="media/ekovideo.mp4" type="video/mp4">
     </video>
-  </div>
+    </div>
 
-  <div class="">
+  <div class="video_paragraph_section">
     <div class="homes_101">
     <h2>EkoTheBeat: Taking It Home</h2>
     
@@ -458,19 +453,72 @@ faqs.forEach((faq) => {
 </div>
 </section>
 
-<footer> 
-    <div>
-    
-       <p class="footer-p"><strong> &copy;2023 BemaMusic. All rights reserved. </strong></p>
-    </div>
- 
+<footer>
+  <div id="waveform-controls">
+    <button id="play-pause-button">&#9658;</button>
+  </div>
+  <img src="img/eko-9.png" alt="Album Cover" id="album-cover" />
+  <div id="waveform"></div>
+  <p class="preview-textss">Product Preview</p>
+  <div class="footer-texts">Taking Home Album by EkoTheBeat</div>
 </footer>
+
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+<!-- Your custom JavaScript -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Create a WaveSurfer instance
+    const waveform = WaveSurfer.create({
+      container: "#waveform",
+      waveColor: "#f1f1f1",
+      progressColor: "#1b4353",
+      height: 40,
+      barWidth: 2,
+      barRadius: 2,
+      responsive: true,
+    });
+
+    // Load the audio file
+    waveform.load("media/ekosong.mp3");
+
+    // Volume control
+    const volumeSlider = document.getElementById("volume-slider");
+    if (volumeSlider) {
+      // Ensure the element exists before attaching event listener
+      waveform.on("ready", function () {
+        volumeSlider.addEventListener("input", function () {
+          waveform.setVolume(volumeSlider.value);
+        });
+      });
+    } else {
+      console.warn('Element with ID "volume-slider" not found');
+    }
+
+    // Play and pause control
+    const playPauseButton = document.getElementById("play-pause-button");
+    if (playPauseButton) {
+      // Ensure the element exists before attaching event listener
+      playPauseButton.addEventListener("click", function () {
+        if (waveform.isPlaying()) {
+          waveform.pause();
+          playPauseButton.innerHTML = "&#9658;"; // Display play icon
+        } else {
+          waveform.play();
+          playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
+        }
+      });
+    } else {
+      console.warn('Element with ID "play-pause-button" not found');
+    }
+  });
+</script>
 
    
 
 <script>
   // Set the custom date and time (year, month - 1, day, hours, minutes, seconds)
-  let customDate = new Date(2023, 7, 31, 12, 0, 0); // July 31, 2023, 12:00:00
+  let customDate = new Date(2023, 10, 31, 12, 0, 0); // July 31, 2023, 12:00:00
 
   let days = document.getElementById("days");
   let hrs = document.getElementById("hrs");
@@ -510,10 +558,6 @@ faqs.forEach((faq) => {
   // Call the setCustomDate function when you want to change the timer
   // setCustomDate();
 </script>
-
-
-  </body>
-</html>
 
 
 
