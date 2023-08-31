@@ -41,11 +41,6 @@
     <title>EkoTheBeat Webpage</title>
   </head>
   <body>
-    <h2 class="header-up">
-      Album that lifts the soul: <span class="span-head">Buy Album Now!</span>
-      <a class="headerbutton headerbutton--big" href="#">Buy albums</a>
-      <button class="btns-close">&times;</button>
-    </h2>
     <header class="header">
       <div class="head-nav">
         <a href="#">
@@ -401,143 +396,46 @@
 
     <!-- <script src="wavesurfer.min.js"></script> -->
     <script>
-      "use strict";
-      document.addEventListener("DOMContentLoaded", function () {
-        // Create a WaveSurfer instance
-        const waveform = WaveSurfer.create({
-          container: "#waveform",
-          waveColor: "#f1f1f1",
-          progressColor: "#1b4353",
-          height: 40,
-          barWidth: 2,
-          barRadius: 2,
-          responsive: true,
-        });
-
-        // Load the audio file
-        waveform.load("media/ekosong.mp3");
-
-        // Volume control
-        const volumeSlider = document.getElementById("volume-slider");
-        if (volumeSlider) {
-          // Ensure the element exists before attaching event listener
-          waveform.on("ready", function () {
-            volumeSlider.addEventListener("input", function () {
-              waveform.setVolume(volumeSlider.value);
+          "use strict";
+          document.addEventListener("DOMContentLoaded", function () {
+            // Create a WaveSurfer instance
+            const waveform = WaveSurfer.create({
+              container: "#waveform",
+              waveColor: "#f1f1f1",
+              progressColor: "#1b4353",
+              height: 40,
+              barWidth: 2,
+              barRadius: 2,
+              responsive: true,
             });
-          });
-        } else {
-          console.warn('Element with ID "volume-slider" not found');
-        }
 
-        // Play and pause control
-        const playPauseButton = document.getElementById("play-pause-button");
-        if (playPauseButton) {
-          // Ensure the element exists before attaching event listener
-          playPauseButton.addEventListener("click", function () {
-            if (waveform.isPlaying()) {
-              waveform.pause();
-              playPauseButton.innerHTML = "&#9658;"; // Display play icon
+            // Load the audio file
+            waveform.load("media/ekosong.mp3");
+
+            // Volume control
+            const volumeSlider = document.getElementById("volume-slider");
+            if (volumeSlider) {
+              // Ensure the element exists before attaching event listener
+              waveform.on("ready", function () {
+                volumeSlider.addEventListener("input", function () {
+                  waveform.setVolume(volumeSlider.value);
+                });
+              });
             } else {
-              waveform.play();
-              playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
+              console.warn('Element with ID "volume-slider" not found');
             }
-          });
+
+      // Play and pause control
+      const playPauseButton = document.getElementById('play-pause-button');
+      playPauseButton.addEventListener('click', function() {
+        if (waveform.isPlaying()) {
+          waveform.pause();
+          playPauseButton.innerHTML = '&#9658;'; // Display play icon
         } else {
-          console.warn('Element with ID "play-pause-button" not found');
+          waveform.play();
+          playPauseButton.innerHTML = '&#10074;&#10074;'; // Display pause icon
         }
       });
-
-      // CAROUSEL JS
-      const carousel = document.querySelector(".carousel"),
-        firstImg = carousel.querySelectorAll("img")[0],
-        arrowIcons = document.querySelectorAll(".wrapper i");
-
-      let isDragStart = false,
-        isDragging = false,
-        prevPageX,
-        prevScrollLeft,
-        positionDiff;
-
-      const showHideIcons = () => {
-        // showing and hiding prev/next icon according to carousel scroll left value
-        let scrollWidth = carousel.scrollWidth - carousel.clientWidth; // getting max scrollable width
-        arrowIcons[0].style.display =
-          carousel.scrollLeft == 0 ? "none" : "block";
-        arrowIcons[1].style.display =
-          carousel.scrollLeft == scrollWidth ? "none" : "block";
-      };
-
-      arrowIcons.forEach((icon) => {
-        icon.addEventListener("click", () => {
-          let firstImgWidth = firstImg.clientWidth + 14; // getting first img width & adding 14 margin value
-          // if clicked icon is left, reduce width value from the carousel scroll left else add to it
-          carousel.scrollLeft +=
-            icon.id == "left" ? -firstImgWidth : firstImgWidth;
-          setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
-        });
-      });
-
-      const autoSlide = () => {
-        // if there is no image left to scroll then return from here
-        if (
-          carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) >
-            -1 ||
-          carousel.scrollLeft <= 0
-        )
-          return;
-
-        positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
-        let firstImgWidth = firstImg.clientWidth + 14;
-        // getting difference value that needs to add or reduce from carousel left to take middle img center
-        let valDifference = firstImgWidth - positionDiff;
-
-        if (carousel.scrollLeft > prevScrollLeft) {
-          // if user is scrolling to the right
-          return (carousel.scrollLeft +=
-            positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff);
-        }
-        // if user is scrolling to the left
-        carousel.scrollLeft -=
-          positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
-      };
-
-      const dragStart = (e) => {
-        // updatating global variables value on mouse down event
-        isDragStart = true;
-        prevPageX = e.pageX || e.touches[0].pageX;
-        prevScrollLeft = carousel.scrollLeft;
-      };
-
-      const dragging = (e) => {
-        // scrolling images/carousel to left according to mouse pointer
-        if (!isDragStart) return;
-        e.preventDefault();
-        isDragging = true;
-        carousel.classList.add("dragging");
-        positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
-        carousel.scrollLeft = prevScrollLeft - positionDiff;
-        showHideIcons();
-      };
-
-      const dragStop = () => {
-        isDragStart = false;
-        carousel.classList.remove("dragging");
-
-        if (!isDragging) return;
-        isDragging = false;
-        autoSlide();
-      };
-
-      carousel.addEventListener("mousedown", dragStart);
-      carousel.addEventListener("touchstart", dragStart);
-
-      document.addEventListener("mousemove", dragging);
-      carousel.addEventListener("touchmove", dragging);
-
-      document.addEventListener("mouseup", dragStop);
-      carousel.addEventListener("touchend", dragStop);
     </script>
-    <script src="js/script.js"></script>
   </body>
 </html>
