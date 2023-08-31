@@ -138,15 +138,6 @@ mark.no-code {
   padding: 0px 3px;
 }
 .eko-graphics {
-  width: 50rem;
-  height: 35rem;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
-  margin-top: 1rem;
-  margin-left: 37rem;
-  border-radius: 2%;
 }
 
 .popup {
@@ -268,4 +259,59 @@ mark.no-code {
 .buttonhomes:hover,
 .buttonhomes {
   background-color: #cf711f;
+}
+
+#myImage {
+  width: 50rem;
+  height: 35rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+  margin-top: 1rem;
+  margin-left: 37rem;
+  border-radius: 2%;
+}
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #276076;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.photo-play-btn ion-icon {
+  font-size: 50px;
+}
+
+/* Add more specific styling for the play icon if needed */
+.photo-play-btn ion-icon[name="play-outline"] {
+  /* Additional styling for the play icon */
 }

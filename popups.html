@@ -47,7 +47,15 @@
         Don't miss out – grab your copy now and let the music take you on a
         <mark class="no-code">Journey of faith and joy.</mark>
       </p>
-      <img src="img/eko-9.png" class="eko-graphics" alt="eko" />
+      <div class="photo-container">
+        <img id="myImage" src="img/eko-9.png" alt="Your Image">
+        <div class="photo-play-btn">
+            <ion-icon id="playButton" name="play-outline"></ion-icon>
+        </div>
+    </div>
+    <audio id="myAudio">
+        <source src="media/ekosong.mp3" type="audio/mp3">
+    </audio>
     </div>
     
     <div class="popup" id="popup">
@@ -103,11 +111,30 @@
       </div>
         
     </section>
+
+  
+  
    
 
   <!-- JavaScript -->
     <script src="script.js"></script>
     <script>
+       const playButton = document.getElementById('playButton');
+    const audio = document.getElementById('myAudio');
+    const image = document.getElementById('myImage');
+
+    playButton.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+           
+        } else {
+            audio.pause();
+            image.style.opacity = 1; // Example: Restoring image opacity when paused
+        }
+    });
+
+
+    // START
      const popup = document.getElementById("popup");
 
     const names = [

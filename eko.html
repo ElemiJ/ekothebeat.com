@@ -41,11 +41,6 @@
     <title>EkoTheBeat Webpage</title>
   </head>
   <body>
-    <h2 class="header-up">
-      Album that lifts the soul: <span class="span-head">Buy Album Now!</span>
-      <a class="headerbutton headerbutton--big" href="#">Buy albums</a>
-      <button class="btns-close">&times;</button>
-    </h2>
     <header class="header">
       <div class="head-nav">
         <a href="#">
@@ -401,9 +396,7 @@
 
     <!-- <script src="wavesurfer.min.js"></script> -->
     <script>
-      "use strict";
       document.addEventListener("DOMContentLoaded", function () {
-        // Create a WaveSurfer instance
         const waveform = WaveSurfer.create({
           container: "#waveform",
           waveColor: "#f1f1f1",
@@ -414,33 +407,31 @@
           responsive: true,
         });
 
-        // Load the audio file
         waveform.load("media/ekosong.mp3");
 
         // Volume control
-        const volumeSlider = document.getElementById("volume-slider");
+        const volumeSlider = document.getElementById("volumeSlider");
         if (volumeSlider) {
-          // Ensure the element exists before attaching event listener
           waveform.on("ready", function () {
             volumeSlider.addEventListener("input", function () {
-              waveform.setVolume(volumeSlider.value);
+              const volumeValue = parseFloat(volumeSlider.value) / 100; // Convert slider value to a range between 0 and 1
+              waveform.setVolume(volumeValue);
             });
           });
         } else {
-          console.warn('Element with ID "volume-slider" not found');
+          console.warn('Element with ID "volumeSlider" not found');
         }
 
         // Play and pause control
         const playPauseButton = document.getElementById("play-pause-button");
         if (playPauseButton) {
-          // Ensure the element exists before attaching event listener
           playPauseButton.addEventListener("click", function () {
             if (waveform.isPlaying()) {
               waveform.pause();
-              playPauseButton.innerHTML = "&#9658;"; // Display play icon
+              playPauseButton.innerHTML = "&#9658;";
             } else {
               waveform.play();
-              playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
+              playPauseButton.innerHTML = "&#10074;&#10074;";
             }
           });
         } else {
@@ -448,7 +439,7 @@
         }
       });
 
-      // CAROUSEL JS
+      // CAROUSEL SECTION
       const carousel = document.querySelector(".carousel"),
         firstImg = carousel.querySelectorAll("img")[0],
         arrowIcons = document.querySelectorAll(".wrapper i");
@@ -537,7 +528,21 @@
 
       document.addEventListener("mouseup", dragStop);
       carousel.addEventListener("touchend", dragStop);
+
+      // MMMMMM
+      const playButton = document.getElementById("playButton");
+      const audio = document.getElementById("myAudio");
+      const image = document.getElementById("myImage");
+
+      playButton.addEventListener("click", () => {
+        if (audio.paused) {
+          audio.play();
+          image.style.opacity = 0.5; // Example: Reducing image opacity while playing
+        } else {
+          audio.pause();
+          image.style.opacity = 1; // Example: Restoring image opacity when paused
+        }
+      });
     </script>
-    <script src="js/script.js"></script>
   </body>
 </html>

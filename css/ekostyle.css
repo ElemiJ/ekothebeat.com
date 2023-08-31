@@ -180,28 +180,6 @@ body {
 .wrapper i:last-child {
   right: -22px;
 }
-/* .wrapper-icon {
-  top: 50%;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
-  position: absolute;
-  font-size: 1.2rem;
-  background-color: #fff;
-  text-align: center;
-  line-height: 46px;
-  border-radius: 50%;
-  transform: translateY(-50%);
-}
-
-.wrapper-icon:first-child {
-  left: -23px;
-
-}
-
-.wrapper-icon:last-child {
-  right: -23px;
-} */
 
 /* TAKING IT HOME ALBUM REVIEW SECTION */
 .display--grid {
@@ -609,7 +587,6 @@ body {
   border-radius: 11px;
   padding: 2rem 1rem;
   background-color: #fff;
-
   width: 570px;
   height: 430px;
   margin-top: 2rem;
@@ -679,6 +656,7 @@ body {
 
 /* FORM SECTION */
 .subscribe {
+  width: 58.5rem;
   padding-left: 12px;
   margin-top: 4rem;
   color: #000;
@@ -752,22 +730,6 @@ textarea {
 .button-submit:active {
   background-color: #528091;
 }
-
-/* .photo-play {
-  width: 550px;
-  height: 412px;
-  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
-    url(../img/eko-9.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
-  margin-top: 2rem;
-  margin-left: 2rem;
-  border-radius: 2%;
-} */
 
 .phot-play-btn {
   display: flex;
@@ -880,6 +842,7 @@ textarea {
   margin: 5px;
 }
 
+/* PLAY BUTTONS ON GRAPHICS */
 .photo-play-btn {
   display: flex;
   align-items: center;
@@ -1095,12 +1058,12 @@ button {
   display: flex;
   align-items: center;
   margin-top: 10px;
-  margin-left: 15rem;
+  margin-left: 10rem;
 }
 
 .volume-control input[type="range"] {
-  width: 100%;
-  margin: 0 10px;
+  width: 50%;
+  margin: 5px;
 }
 
 .volume-control input[type="range"]::-webkit-slider-thumb {
@@ -1116,8 +1079,8 @@ button {
 /* Additional styles for the speaker icon */
 .volume-control::before {
   content: "\1F50A";
-  font-size: 5rem;
-  margin-right: 5px;
+  font-size: 4.5rem;
+  margin-right: 15px;
   color: #fff;
 }
 
