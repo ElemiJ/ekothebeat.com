@@ -64,8 +64,16 @@ body {
   opacity: 0.9;
   background-color: #333;
 }
+.headerbutton--big {
+  font-size: 10px;
+  padding: 15px 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 60rem;
+  /* position: absolute; */
+>>>>>>>>> Temporary merge branch 2
+}
 
-/* THE HEADER */
 .header {
   position: sticky;
   background: #1b4353;
@@ -658,7 +666,6 @@ body {
 
 /* FORM SECTION */
 .subscribe {
-  width: 58.3rem;
   padding-left: 12px;
   margin-top: 4rem;
   color: #000;

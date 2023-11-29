@@ -399,13 +399,55 @@
     <!-- <script src="wavesurfer.min.js"></script> -->
 
     <script>
-      // JAVASCRIPT TO HIDE THE CONTENNT WITHIN THE HEADER UP CLASS
-      const hideContentBtn = document.getElementById("hideContentBtn");
-      const headerUp = document.querySelector(".header-up");
+      <<<<<<< HEAD
+            // JAVASCRIPT TO HIDE THE CONTENNT WITHIN THE HEADER UP CLASS
+            const hideContentBtn = document.getElementById("hideContentBtn");
+            const headerUp = document.querySelector(".header-up");
 
-      hideContentBtn.addEventListener("click", () => {
-        headerUp.style.display = "none";
-      });
+            hideContentBtn.addEventListener("click", () => {
+              headerUp.style.display = "none";
+      =======
+                "use strict";
+                document.addEventListener("DOMContentLoaded", function () {
+                  // Create a WaveSurfer instance
+                  const waveform = WaveSurfer.create({
+                    container: "#waveform",
+                    waveColor: "#f1f1f1",
+                    progressColor: "#1b4353",
+                    height: 40,
+                    barWidth: 2,
+                    barRadius: 2,
+                    responsive: true,
+                  });
+
+                  // Load the audio file
+                  waveform.load("media/ekosong.mp3");
+
+                  // Volume control
+                  const volumeSlider = document.getElementById("volume-slider");
+                  if (volumeSlider) {
+                    // Ensure the element exists before attaching event listener
+                    waveform.on("ready", function () {
+                      volumeSlider.addEventListener("input", function () {
+                        waveform.setVolume(volumeSlider.value);
+                      });
+                    });
+                  } else {
+                    console.warn('Element with ID "volume-slider" not found');
+                  }
+
+            // Play and pause control
+            const playPauseButton = document.getElementById('play-pause-button');
+            playPauseButton.addEventListener('click', function() {
+              if (waveform.isPlaying()) {
+                waveform.pause();
+                playPauseButton.innerHTML = '&#9658;'; // Display play icon
+              } else {
+                waveform.play();
+                playPauseButton.innerHTML = '&#10074;&#10074;'; // Display pause icon
+              }
+      >>>>>>> 07dd4cf604007a818e5ae9a9a59e86440e593cc7
+            });
     </script>
   </body>
 </html>
