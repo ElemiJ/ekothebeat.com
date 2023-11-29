@@ -22,11 +22,8 @@
     />
     <link rel="stylesheet" href="css/ekostyle.css" />
     <link rel="stylesheet" href="css/quaries.css" />
+    <script src="js/script.js" defer></script>
 
-    <!-- <link
-      rel="stylesheet"
-      href="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.css"
-    /> -->
     <script src="https://unpkg.com/wavesurfer.js"></script>
 
     <script
@@ -41,9 +38,19 @@
     <title>EkoTheBeat Webpage</title>
   </head>
   <body>
+    <div class="header-up">
+      <button class="btn2" id="hideContentBtn">&times;</button>
+      <h2 class="eko-hot">
+        Hot deals on EkoTheBeat new release:
+        <span class="span-head">Taking It Home Album Is Out Now!</span>
+        <a class="headerbutton headerbutton--big" href="buyalbum.html"
+          >Get It Now→</a
+        >
+      </h2>
+    </div>
     <header class="header">
       <div class="head-nav">
-        <a href="#">
+        <a href="eko.html">
           <img
             class="logo"
             alt="Ekothebeat logo"
@@ -60,11 +67,6 @@
 
     <section class="section-class">
       <div class="wrapper">
-        <!-- <ion-icon
-          name="chevron-back-outline"
-          id="left"
-          class="wrapper-icon"
-        ></ion-icon> -->
         <i id="left" class="fa-solid fa-angle-left"></i>
         <div class="carousel">
           <img src="img/eko-9.png" alt="img" draggable="false" />
@@ -111,7 +113,7 @@
         </h2>
         <h3 class="h3">Album review</h3>
         <p class="container-paragraph">
-          Have you have songs that give a positive atmosphere that you can
+          Have you heard songs that give a positive atmosphere that you can
           listen to anywhere coupled with amazing lyrics with a good beat that
           connects to your soul? If you no, then Ekothebeat got you fully
           covered.
@@ -119,7 +121,7 @@
 
         <p class="container-paragraph">
           There's something for every mood and moment in this captivating list
-          of music albumsof discovering new sounds and letting the melodies
+          of music albums of discovering new sounds and letting the melodies
           transport you to different worldS. Enjoy the adventure!
         </p>
         <a class="btnhome btnhome--big" href="#">Buy albums</a>
@@ -395,153 +397,14 @@
     </footer>
 
     <!-- <script src="wavesurfer.min.js"></script> -->
+
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const waveform = WaveSurfer.create({
-          container: "#waveform",
-          waveColor: "#f1f1f1",
-          progressColor: "#1b4353",
-          height: 40,
-          barWidth: 2,
-          barRadius: 2,
-          responsive: true,
-        });
+      // JAVASCRIPT TO HIDE THE CONTENNT WITHIN THE HEADER UP CLASS
+      const hideContentBtn = document.getElementById("hideContentBtn");
+      const headerUp = document.querySelector(".header-up");
 
-        waveform.load("media/ekosong.mp3");
-
-        // Volume control
-        const volumeSlider = document.getElementById("volumeSlider");
-        if (volumeSlider) {
-          waveform.on("ready", function () {
-            volumeSlider.addEventListener("input", function () {
-              const volumeValue = parseFloat(volumeSlider.value) / 100; // Convert slider value to a range between 0 and 1
-              waveform.setVolume(volumeValue);
-            });
-          });
-        } else {
-          console.warn('Element with ID "volumeSlider" not found');
-        }
-
-        // Play and pause control
-        const playPauseButton = document.getElementById("play-pause-button");
-        if (playPauseButton) {
-          playPauseButton.addEventListener("click", function () {
-            if (waveform.isPlaying()) {
-              waveform.pause();
-              playPauseButton.innerHTML = "&#9658;";
-            } else {
-              waveform.play();
-              playPauseButton.innerHTML = "&#10074;&#10074;";
-            }
-          });
-        } else {
-          console.warn('Element with ID "play-pause-button" not found');
-        }
-      });
-
-      // CAROUSEL SECTION
-      const carousel = document.querySelector(".carousel"),
-        firstImg = carousel.querySelectorAll("img")[0],
-        arrowIcons = document.querySelectorAll(".wrapper i");
-
-      let isDragStart = false,
-        isDragging = false,
-        prevPageX,
-        prevScrollLeft,
-        positionDiff;
-
-      const showHideIcons = () => {
-        // showing and hiding prev/next icon according to carousel scroll left value
-        let scrollWidth = carousel.scrollWidth - carousel.clientWidth; // getting max scrollable width
-        arrowIcons[0].style.display =
-          carousel.scrollLeft == 0 ? "none" : "block";
-        arrowIcons[1].style.display =
-          carousel.scrollLeft == scrollWidth ? "none" : "block";
-      };
-
-      arrowIcons.forEach((icon) => {
-        icon.addEventListener("click", () => {
-          let firstImgWidth = firstImg.clientWidth + 14; // getting first img width & adding 14 margin value
-          // if clicked icon is left, reduce width value from the carousel scroll left else add to it
-          carousel.scrollLeft +=
-            icon.id == "left" ? -firstImgWidth : firstImgWidth;
-          setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
-        });
-      });
-
-      const autoSlide = () => {
-        // if there is no image left to scroll then return from here
-        if (
-          carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) >
-            -1 ||
-          carousel.scrollLeft <= 0
-        )
-          return;
-
-        positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
-        let firstImgWidth = firstImg.clientWidth + 14;
-        // getting difference value that needs to add or reduce from carousel left to take middle img center
-        let valDifference = firstImgWidth - positionDiff;
-
-        if (carousel.scrollLeft > prevScrollLeft) {
-          // if user is scrolling to the right
-          return (carousel.scrollLeft +=
-            positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff);
-        }
-        // if user is scrolling to the left
-        carousel.scrollLeft -=
-          positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
-      };
-
-      const dragStart = (e) => {
-        // updatating global variables value on mouse down event
-        isDragStart = true;
-        prevPageX = e.pageX || e.touches[0].pageX;
-        prevScrollLeft = carousel.scrollLeft;
-      };
-
-      const dragging = (e) => {
-        // scrolling images/carousel to left according to mouse pointer
-        if (!isDragStart) return;
-        e.preventDefault();
-        isDragging = true;
-        carousel.classList.add("dragging");
-        positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
-        carousel.scrollLeft = prevScrollLeft - positionDiff;
-        showHideIcons();
-      };
-
-      const dragStop = () => {
-        isDragStart = false;
-        carousel.classList.remove("dragging");
-
-        if (!isDragging) return;
-        isDragging = false;
-        autoSlide();
-      };
-
-      carousel.addEventListener("mousedown", dragStart);
-      carousel.addEventListener("touchstart", dragStart);
-
-      document.addEventListener("mousemove", dragging);
-      carousel.addEventListener("touchmove", dragging);
-
-      document.addEventListener("mouseup", dragStop);
-      carousel.addEventListener("touchend", dragStop);
-
-      // MMMMMM
-      const playButton = document.getElementById("playButton");
-      const audio = document.getElementById("myAudio");
-      const image = document.getElementById("myImage");
-
-      playButton.addEventListener("click", () => {
-        if (audio.paused) {
-          audio.play();
-          image.style.opacity = 0.5; // Example: Reducing image opacity while playing
-        } else {
-          audio.pause();
-          image.style.opacity = 1; // Example: Restoring image opacity when paused
-        }
+      hideContentBtn.addEventListener("click", () => {
+        headerUp.style.display = "none";
       });
     </script>
   </body>

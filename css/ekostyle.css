@@ -17,12 +17,22 @@ body {
 .header-up {
   font-size: 1.6rem;
   color: #cf711f;
-  padding-left: 7rem;
+  padding-left: 2.5rem;
   background-color: #171717;
   position: relative;
+  text-transform: uppercase;
 }
+
 .span-head {
   color: #fff;
+}
+.headerbutton--big {
+  font-size: 10px;
+  padding: 15px 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 37rem;
+  /* position: absolute; */
 }
 .headerbutton:link,
 .headerbutton:visited {
@@ -37,40 +47,32 @@ body {
 .headerbutton:hover,
 .headerbutton:active {
   background-color: #93b0bb;
-  /* background-color: #45260a; */
 }
-.btns-close {
+.btn2 {
   background-color: transparent;
   border: 0;
   font-size: 4rem;
   cursor: pointer;
   position: absolute;
-  right: 5rem;
+  right: 1rem;
   top: 3px;
   padding-bottom: 2rem;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
-.btns-close:hover {
+.btn2:hover {
   opacity: 0.9;
   background-color: #333;
 }
-.headerbutton--big {
-  font-size: 10px;
-  padding: 15px 15px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 60rem;
-  /* position: absolute; */
-}
 
+/* THE HEADER */
 .header {
   position: sticky;
   background: #1b4353;
   top: 0;
-  height: 8rem;
+  height: 7rem;
   padding-left: 2rem;
-  padding-top: 0.9rem;
+  /* padding-top: 0.9rem; */
   transition: 0.6s;
   z-index: 999;
 }
@@ -656,7 +658,7 @@ body {
 
 /* FORM SECTION */
 .subscribe {
-  width: 58.5rem;
+  width: 58.3rem;
   padding-left: 12px;
   margin-top: 4rem;
   color: #000;
@@ -1053,6 +1055,18 @@ button {
 }
 
 /* VOLUME CONTROL*/
+.volume-container {
+  position: relative;
+  display: inline-block;
+}
+
+.volume-slider {
+  display: none; /* Hide the volume control by default */
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 2;
+}
 
 .volume-control {
   display: flex;
@@ -1083,27 +1097,3 @@ button {
   margin-right: 15px;
   color: #fff;
 }
-
-/* @keyframes bloom1 {
-  0% {
-    transform: scale(0.1);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}
-
-@keyframes bloom2 {
-  0% {
-    transform: scale(0.5);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1.5);
-  }
-} */

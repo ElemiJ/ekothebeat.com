@@ -12,7 +12,8 @@
     />
 
     <link rel="stylesheet" href="css/bronze.css" />
-    <link rel="stylesheet" href="css/bronzeqaurries.css" />
+    <link rel="stylesheet" href="css/silverquarries.css" />
+    <script src="js/script.js" defer></script>
 
     <script
       type="module"
@@ -25,12 +26,12 @@
 
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/wavesurfer.js"></script>
-    <title>Bronze Page</title>
+    <title>Silver Page</title>
   </head>
   <body>
      <header class="section-header">
       <div class="header_navigations">
-        <a href="#">
+        <a href="eko.html">
           <img
             class="logo_personal"
             alt="Ekothebeat logo"
@@ -45,26 +46,39 @@
         </nav>
       </div>
     </header>
-    <div class="countdown-section">
-      <div class="countdown-div">
-        <div class="countdown">
-          <span id="days">00</span>
-          <span>:</span>
-          <span id="hrs">00</span>
-          <span>:</span>
-          <span id="min">00</span>
-          <span>:</span>
-          <span id="sec">00</span>
-        </div>
+    <section>
+      
+      <div class="grid-container">
+        <div class="grid-item">
+            <div class="countdown-section">
+                <div class="img-section-div">
+                    <img src="img/eko-9.png" class="img-section">
+                </div>
 
-        <div class="countdown-percent">
-          <p>Get 70% OFF 🔥 & Enter the Contest for a
-            Chance to win $100 when we reach 1000 sales</p>
-            <a class="butt__1 butt__1__big" href="#">Get The Album Now</a>
+                <div class="countdown-div">
+                    <div class="countdown">
+                        <span id="days">00</span>
+                        <span>:</span>
+                        <span id="hrs">00</span>
+                        <span>:</span>
+                        <span id="min">00</span>
+                        <span>:</span>
+                        <span id="sec">00</span>
+                    </div>
+
+                    <div class="countdown-percent">
+                        <p>Get 70% OFF Talking Home Album 🔥 & Enter the Contest for a
+                            Chance to win $100 when we reach 1000 sales</p>
+                        <a class="butt__1 butt__1__big" href="#">Get The Album Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-     
+        <div class="grid-item">
+            <!-- Second content section goes here if needed -->
+        </div>
     </div>
+  </section>
 
     <section class="album-home-sections">
       <div class="container grid grid--2-col">
@@ -461,60 +475,18 @@ faqs.forEach((faq) => {
   <div id="waveform"></div>
   <p class="preview-textss">Product Preview</p>
   <div class="footer-texts">Taking Home Album by EkoTheBeat</div>
+  <div class="volume-control">
+    <input
+      type="range"
+      id="volumeSlider"
+      min="0"
+      max="100"
+      value="50"
+      step="1"
+    />
+  </div>
 </footer>
-
-<script src="https://unpkg.com/wavesurfer.js"></script>
-
-<!-- Your custom JavaScript -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Create a WaveSurfer instance
-    const waveform = WaveSurfer.create({
-      container: "#waveform",
-      waveColor: "#f1f1f1",
-      progressColor: "#1b4353",
-      height: 40,
-      barWidth: 2,
-      barRadius: 2,
-      responsive: true,
-    });
-
-    // Load the audio file
-    waveform.load("media/ekosong.mp3");
-
-    // Volume control
-    const volumeSlider = document.getElementById("volume-slider");
-    if (volumeSlider) {
-      // Ensure the element exists before attaching event listener
-      waveform.on("ready", function () {
-        volumeSlider.addEventListener("input", function () {
-          waveform.setVolume(volumeSlider.value);
-        });
-      });
-    } else {
-      console.warn('Element with ID "volume-slider" not found');
-    }
-
-    // Play and pause control
-    const playPauseButton = document.getElementById("play-pause-button");
-    if (playPauseButton) {
-      // Ensure the element exists before attaching event listener
-      playPauseButton.addEventListener("click", function () {
-        if (waveform.isPlaying()) {
-          waveform.pause();
-          playPauseButton.innerHTML = "&#9658;"; // Display play icon
-        } else {
-          waveform.play();
-          playPauseButton.innerHTML = "&#10074;&#10074;"; // Display pause icon
-        }
-      });
-    } else {
-      console.warn('Element with ID "play-pause-button" not found');
-    }
-  });
-</script>
-
-   
+ 
 
 <script>
   // Set the custom date and time (year, month - 1, day, hours, minutes, seconds)

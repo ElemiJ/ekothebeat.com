@@ -5,8 +5,8 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 85em) {
-  .head-nav {
-    /* width: 20rem; */
+  .eko-hot {
+    font-size: 1.5rem;
   }
   .logo {
     width: 9rem;
@@ -77,16 +77,16 @@ Instead, 1rem = 1em =16px*/
     /* margin-left: 6rem; */
   }
 
-  /* .taking-it-home-img,
+  .taking-it-home-img,
   .coming-soon-img {
     height: 30rem;
   }
-  /* .ekothebeat {
+  .ekothebeat {
     height: 60rem;
   }
   .list {
-    height: 50rem;
-  } */
+    height: 55rem;
+  }
   .subheading {
     font-size: 3rem;
     padding-bottom: 4rem;
@@ -156,6 +156,7 @@ Instead, 1rem = 1em =16px*/
     height: 31.2rem;
   }
   .subscribe {
+    width: 64rem;
     background-color: #fff;
     font-size: 2rem;
     padding: 1rem;
@@ -200,6 +201,17 @@ Instead, 1rem = 1em =16px*/
     margin-top: 2rem;
   }
 }
+/* BELOW 1237px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 78em) {
+  .headerbutton--big {
+    margin-left: 30rem;
+  }
+  .subscribe {
+    width: 57rem;
+  }
+}
 /* BELOW 1200px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
@@ -222,6 +234,34 @@ Instead, 1rem = 1em =16px*/
 
   .footer-text {
     font-size: 1.7rem;
+  }
+}
+
+/* BELOW 1173px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 74em) {
+  .headerbutton--big {
+    margin-left: 25rem;
+  }
+  .subscribe {
+    width: 54rem;
+  }
+  .heading---tertiaries {
+    font-size: 1.9rem;
+  }
+  .list {
+    height: 47rem;
+  }
+  .eko-tags {
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+  .album-titlez,
+  .album-title {
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
   }
 }
 
@@ -250,6 +290,33 @@ Instead, 1rem = 1em =16px*/
   }
 }
 
+/* BELOW 1173px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 67em) {
+  .headerbutton--big {
+    margin-left: 15rem;
+  }
+  .subscribe {
+    width: 48rem;
+  }
+  .heading---tertiaries {
+    font-size: 1.5rem;
+  }
+  .list {
+    height: 50rem;
+  }
+  .eko-tags {
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+  .album-titlez,
+  .album-title {
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
 /* BELOW 1042px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
@@ -289,10 +356,45 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 63em) {
-  .head-nav {
+  .headerbutton--big {
+    margin-left: 10rem;
+  }
+  .subscribe {
+    width: 45rem;
   }
   .wrapper {
     max-width: 90rem;
+  }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .eko-tags {
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 8rem;
+    margin-left: -3rem;
+  }
+  .album-title {
+    margin-left: 6rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 4rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .heading---tertiaries {
+    font-size: 2.2rem;
+  }
+  .form-paragraph {
+    font-size: 2.2rem;
+    margin-top: 29.4rem;
+    height: 31.2rem;
   }
   .text {
     width: 45rem;
@@ -303,10 +405,16 @@ Instead, 1rem = 1em =16px*/
     margin-left: -1rem;
   }
   .texts {
+    font-size: 1.5rem;
     margin-left: -1rem;
   }
   .photo----play {
     margin-left: -1rem;
+  }
+  .buttoneko:link,
+  .buttoneko:visited {
+    font-size: 1.5rem;
+    margin-top: -1rem;
   }
   .displays-grids {
     margin-left: 3rem;
@@ -385,12 +493,62 @@ Instead, 1rem = 1em =16px*/
   }
 }
 
+/* BELOW 953px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 60em) {
+  .headerbutton--big {
+    margin-left: 5rem;
+  }
+  .subscribe {
+    width: 43rem;
+  }
+  .footer-text {
+    font-size: 1.5rem;
+  }
+  .form-paragraph {
+    font-size: 2.1rem;
+  }
+}
+/* BELOW 912px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 57em) {
+  .headerbutton--big {
+    margin-left: 6rem;
+  }
+  .wrapper {
+    max-width: 80rem;
+  }
+  .carousel img {
+    margin-left: 2rem;
+    width: 40rem;
+  }
+
+  .subscribe {
+    width: 40rem;
+  }
+  .btn2 {
+    top: 2rem;
+    right: 1rem;
+  }
+  .eko-hot {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .text {
+    width: 45rem;
+    height: 31rem;
+    margin-left: 23rem;
+  }
+}
 /* BELOW 893px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 56em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .headerbutton--big {
+    margin-left: 30rem;
+    font-size: 1.5rem;
   }
   .wrapper {
     max-width: 80rem;
@@ -400,14 +558,17 @@ Instead, 1rem = 1em =16px*/
     width: 42rem;
     height: 30rem;
   }
+  .ekothebeat {
+    height: 48rem;
+  }
   .eko-tags {
     margin-left: 1.5rem;
     margin-top: 1rem;
   }
   .tag--eko {
-    margin-right: 12rem;
+    margin-right: 8rem;
     margin-left: -3rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .album-title,
   .album-titlez {
@@ -466,20 +627,61 @@ Instead, 1rem = 1em =16px*/
   }
 }
 
+/* BELOW 875px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 55em) {
+  .headerbutton--big {
+    margin-left: 2rem;
+  }
+  .wrapper {
+    max-width: 80rem;
+  }
+  .carousel img {
+    margin-left: 2rem;
+    width: 40rem;
+  }
+  .headerbutton--big {
+    margin-left: 30rem;
+  }
+  .heading---tertiaries {
+    font-size: 2.1rem;
+  }
+  .subscribe {
+    width: 39rem;
+  }
+  .text {
+    width: 45rem;
+    height: 31rem;
+    margin-left: 23rem;
+  }
+  .form-paragraph {
+    font-size: 2.1rem;
+  }
+}
+
 /* BELOW 830px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 52em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .eko-hot {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+  }
+  .headerbutton--big {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  .btn2 {
+    top: 2rem;
+    right: -1rem;
   }
   .wrapper {
     max-width: 77rem;
   }
   .carousel img {
     grid-template-columns: 1fr;
-    width: 39rem;
-    height: 40rem;
+    width: 40rem;
   }
   .display--grid {
     margin-left: -5rem;
@@ -543,6 +745,7 @@ Instead, 1rem = 1em =16px*/
     margin-left: 3rem;
   }
   .form-paragraph {
+    height: 34rem;
     font-size: 2rem;
   }
   .buttonz--big {
@@ -553,9 +756,6 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 51em) {
-  .head-nav {
-    /* background-color: #112477; */
-  }
   .wrapper {
     max-width: 70rem;
   }
@@ -579,20 +779,55 @@ Instead, 1rem = 1em =16px*/
     margin-top: 2rem;
   }
 }
+
+/* BELOW 806px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 48em) {
+  .eko-hot {
+    font-size: 1.6rem;
+  }
+  .btn2 {
+    top: -0.1rem;
+    right: 1rem;
+  }
+  .headerbutton--big {
+    margin-left: 30rem;
+    font-size: 1.2rem;
+  }
+  .wrapper {
+    max-width: 70rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 35rem;
+    height: 30rem;
+  }
+  .form-paragraph {
+    font-size: 1.8rem;
+  }
+  .heading---tertiaries {
+    font-size: 1.8rem;
+  }
+}
 /* BELOW 752px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 47em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .btn2 {
+    top: 4rem;
+    right: 3rem;
   }
   .wrapper {
     max-width: 65rem;
   }
   .carousel img {
     grid-template-columns: 1fr;
-    width: 30rem;
+    width: 33rem;
     height: 30rem;
+  }
+  .subscribe {
+    width: 33rem;
   }
   .photo---play {
     margin-left: 19rem;
@@ -609,7 +844,7 @@ Instead, 1rem = 1em =16px*/
     margin-left: 21rem;
   }
   .form-paragraph {
-    font-size: 1.87rem;
+    font-size: 1.7rem;
   }
   .display--grid {
     margin-left: -6rem;
@@ -620,24 +855,11 @@ Instead, 1rem = 1em =16px*/
     font-size: 1.6rem;
   }
 }
-/* BELOW 912px(for smaller desktop screen size */
 
-/* RESPONSIVE SECTION */
-@media (max-width: 57em) {
-  .head-nav {
-    /* background-color: #112477; */
-  }
-  .form-paragraph {
-    font-size: 1.9rem;
-  }
-}
 /* BELOW 695px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 44em) {
-  .head-nav {
-    /* background-color: #112477; */
-  }
   .logo {
     margin-left: 1rem;
   }
@@ -686,8 +908,8 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 43em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .btn2 {
+    top: 2rem;
   }
   .logo {
     margin-left: 1.3rem;
@@ -712,12 +934,41 @@ Instead, 1rem = 1em =16px*/
   }
 }
 
+/* BELOW 658px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 42em) {
+  .subscribe {
+    width: 28.8rem;
+  }
+  .form-paragraph {
+    font-size: 1.7rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: -2.5rem;
+  }
+  .tag--eko {
+    margin-right: 6rem;
+    margin-left: -5rem;
+    font-size: 1.6rem;
+  }
+  .album-titlez {
+    margin-left: -1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
 /* BELOW 652px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 41em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .btn2 {
+    top: 4rem;
   }
   .logo {
     margin-left: 1.3rem;
@@ -725,26 +976,79 @@ Instead, 1rem = 1em =16px*/
   .wrapper {
     max-width: 61rem;
   }
+  .grid--3-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .eko-tags {
+    margin-left: 6rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 6rem;
+    margin-left: -1rem;
+    font-size: 1.8rem;
+  }
+  .album-title {
+    margin-left: 12rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
   .album-titlez {
     font-size: 2rem;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 10rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: 8rem;
+    font-size: 1.6rem;
   }
   .list-item {
     font-size: 1.8rem;
   }
-
-  .buttonhomes--big {
-    font-size: 1.2rem;
+  .list {
+    height: 45rem;
+    width: 50rem;
   }
-  .buttonz--big {
-    font-size: 1.1rem;
+  .heading---tertiaries {
+    font-size: 2rem;
+  }
+  .h2 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  .h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+  }
+  .text {
+    width: 45rem;
+    height: 32rem;
+  }
+
+  .texts {
+    height: 36rem;
+    margin-left: 21rem;
+  }
+  .container-paragraph {
+    font-size: 1.4rem;
+    margin-top: -1rem;
+    padding-left: 1rem;
   }
   .display--grid {
     margin-left: -12rem;
   }
+  .subscribe {
+    width: 28rem;
+    font-size: 1.5rem;
+  }
   .form-paragraph {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 /* BELOW 576px(for smaller desktop screen size */
@@ -812,8 +1116,8 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 38em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .headerbutton--big {
+    margin-left: 3rem;
   }
   .logo {
     margin-left: 1.3rem;
@@ -830,13 +1134,17 @@ Instead, 1rem = 1em =16px*/
     display: grid;
     grid-template-columns: 1fr;
   }
-  .ekothebeat,
-  .play-list {
+  .ekothebeat {
     width: 50rem;
+    height: 70rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
     height: 40rem;
+  }
+  .eko-tags {
+    margin-left: 1rem;
+    margin-top: 1rem;
   }
   .tag--eko {
     margin-right: 7rem;
@@ -844,12 +1152,12 @@ Instead, 1rem = 1em =16px*/
     font-size: 2rem;
   }
   .album-title {
-    margin-left: 14rem;
+    margin-left: 11rem;
     font-size: 2rem;
     margin-top: 2rem;
   }
   .album-titlez {
-    margin-left: 14rem;
+    margin-left: 10rem;
     font-size: 2rem;
     margin-top: 2rem;
   }
@@ -883,8 +1191,10 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 37em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .eko-hot {
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
   .logo {
     margin-left: 1.3rem;
@@ -894,12 +1204,19 @@ Instead, 1rem = 1em =16px*/
   }
   .carousel img {
     grid-template-columns: 1fr;
-    width: 26rem;
+    width: 40rem;
     height: 29rem;
   }
   .grid--3-cols {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .displays-grids {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .ekos-play {
+    height: 30rem;
   }
   .ekothebeat,
   .play-list {
@@ -914,16 +1231,26 @@ Instead, 1rem = 1em =16px*/
     margin-left: 2rem;
     font-size: 2rem;
   }
+
   .album-title {
-    margin-left: 14rem;
+    margin-left: 13rem;
     font-size: 2rem;
     margin-top: 2rem;
   }
   .album-titlez {
-    margin-left: 14rem;
+    margin-left: 12rem;
     font-size: 2rem;
     margin-top: 2rem;
   }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 25rem;
+    margin-left: 8rem;
+    font-size: 1.6rem;
+  }
+
   .buttonhomes--big,
   .buttonz--big {
     font-size: 2.5rem;
@@ -936,8 +1263,13 @@ Instead, 1rem = 1em =16px*/
   .display--grid {
     margin-left: -16rem;
   }
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .form-paragraph {
-    font-size: 1.6rem;
+    height: 24rem;
+    font-size: 2rem;
+    margin-top: 18rem;
   }
   .subscribe {
     font-size: 1.5rem;
@@ -953,8 +1285,8 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 35em) {
-  .head-nav {
-    /* background-color: #112477; */
+  .headerbutton--big {
+    /* margin-left: 3rem; */
   }
   .logo {
     margin-left: 1.3rem;
@@ -1014,18 +1346,59 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 34em) {
-  .ekos-play {
-    height: 20rem;
+  .header-up h2 {
+    line-height: 1.2;
+    text-align: center;
+  }
+  .eko-hot {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .btn2 {
+    top: 4rem;
   }
   .carousel img {
     grid-template-columns: 1fr;
-    width: 42rem;
+    width: 45rem;
     height: 30rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 50rem;
+    height: 70rem;
+  }
+  .headerbutton--big {
+    margin-left: 1rem;
+  }
+  .list {
+    height: 65rem;
+    gap: 3.5rem;
+  }
+  .ekos-play {
+    height: 20rem;
   }
   .wrapper {
     max-width: 45rem;
   }
-
+  .eko-tags {
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
+  .album-title {
+    margin-left: 9rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 6rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .tag--eko {
+    margin-right: 5rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+  }
   .subheading,
   .heading-secondary {
     margin-left: 3rem;
@@ -1038,8 +1411,22 @@ Instead, 1rem = 1em =16px*/
   .heading---tertiaries {
     margin-left: 2rem;
   }
-  .form-paragraph {
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .subscribe {
+    width: 49rem;
     font-size: 1.5rem;
+  }
+  .volume-control::before {
+    content: "\1F50A";
+    font-size: 3rem;
+    margin-right: 15px;
+    color: #fff;
+  }
+  .form-paragraph {
+    height: 29rem;
+    font-size: 2.2rem;
   }
   .preview-text {
     position: absolute;
@@ -1073,6 +1460,12 @@ Instead, 1rem = 1em =16px*/
   .ekothebeat,
   .play-list {
     width: 40rem;
+    height: 45rem;
+  }
+  .list {
+    width: 40rem;
+    height: 65rem;
+    gap: 3.5rem;
   }
   .tag--eko {
     margin-right: 1rem;
@@ -1083,9 +1476,13 @@ Instead, 1rem = 1em =16px*/
   .heading-secondary {
     margin-left: 1.7rem;
   }
-  .album-title,
+  .album-title {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
   .album-titlez {
-    margin-left: 9rem;
+    margin-left: 1rem;
     margin-top: 2rem;
   }
   .buttonhomes--big,
@@ -1097,7 +1494,20 @@ Instead, 1rem = 1em =16px*/
   .buttonz:link,
   .buttonz:visited {
     width: 20rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
+  }
+  .eko-tags {
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+  }
+  .album-title {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  .list {
+    width: 40rem;
+    height: 42rem;
+    gap: 1rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
@@ -1116,12 +1526,22 @@ Instead, 1rem = 1em =16px*/
   .text {
     margin-left: 21.5rem;
   }
+  .free-mixtapes,
+  .free-mixtapes1 {
+    font-size: 1.8rem;
+    padding-top: 0.4rem;
+  }
 
   .heading---tertiaries {
     margin-left: 2rem;
   }
-  .form-paragraph {
+  .subscribe {
+    width: 46rem;
     font-size: 1.5rem;
+  }
+  .form-paragraph {
+    height: 20rem;
+    font-size: 1.7rem;
   }
   .preview-text {
     position: absolute;
@@ -1249,48 +1669,135 @@ Instead, 1rem = 1em =16px*/
 
 /* RESPONSIVE SECTION */
 @media (max-width: 30em) {
-  .head-nav {
-    /* background-color: red; */
-  }
   .wrapper {
     max-width: 40rem;
   }
   .photo---play {
     margin-left: 23rem;
   }
+  .ekos-play {
+    height: 30rem;
+    width: 41rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 35rem;
+    margin-left: 1rem;
+  }
+  .eko-tags {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .album-title {
+    margin-left: 3rem;
+  }
+  .album-titlez {
+    margin-left: 2rem;
+  }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    width: 20rem;
+    margin-left: 4rem;
+  }
   .text {
     width: 40rem;
-    height: 30rem;
+    height: 35rem;
     margin-left: 22rem;
   }
   .texts {
     width: 40rem;
-    height: 34rem;
+    height: 40rem;
     margin-left: 23rem;
   }
+  .buttoneko:link,
+  .buttoneko:visited {
+    width: 20rem;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+  .form {
+    margin-bottom: 7rem;
+  }
+  .subscribe {
+    width: 42rem;
+    font-size: 1.2rem;
+  }
   .form-paragraph {
-    font-size: 1.3rem;
+    margin-top: 23rem;
+    font-size: 1.7rem;
+    height: 20rem;
+  }
+}
+
+/* RESPONSIVE SECTION */
+@media (max-width: 29em) {
+  .eko-hot {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+  }
+  .btn2 {
+    top: 1rem;
+    right: 1rem;
+  }
+  .photo---play {
+    margin-left: 21.5rem;
+  }
+  .text {
+    width: 40rem;
+    height: 35rem;
+    margin-left: 21.5rem;
+  }
+  .ekos-play {
+    height: 30rem;
+    width: 39rem;
+  }
+  .photo----play {
+    height: 25rem;
+    margin-left: 21.5rem;
+  }
+  .texts {
+    width: 40rem;
+    height: 40rem;
+    margin-left: 21.5rem;
+  }
+  .subscribe {
+    width: 41rem;
+    font-size: 1.2rem;
   }
 }
 /* RESPONSIVE SECTION */
 @media (max-width: 28em) {
-  .head-nav {
-    /* background-color: red; */
+  .btn2 {
+    top: 4rem;
+    right: 1rem;
   }
   .wrapper {
     max-width: 37rem;
   }
   .photo---play {
-    margin-left: 21.5rem;
+    width: 35rem;
+    margin-left: 23rem;
   }
-  text {
-    width: 40rem;
-    height: 30rem;
-    margin-left: 21.2rem;
+  .text {
+    width: 37rem;
+    height: 36rem;
+    margin-left: 22rem;
+  }
+  .h2 {
+    padding-left: -1rem;
+    padding-top: 1rem;
   }
   .ekos-play {
-    height: 17rem;
-    width: 18.5rem;
+    height: 30rem;
+    width: 37rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 38rem;
+    height: 45rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
@@ -1298,41 +1805,99 @@ Instead, 1rem = 1em =16px*/
     height: 20rem;
     margin-left: 3rem;
   }
+  .list {
+    width: 38rem;
+    height: 42rem;
+    gap: 1rem;
+  }
   .subheading,
   .heading-secondary {
     margin-left: 2rem;
   }
   .photo----play {
-    width: 40rem;
+    width: 35rem;
     height: 25rem;
-    margin-left: 21rem;
+    margin-left: 23rem;
   }
   .texts {
-    width: 40rem;
-    height: 34rem;
-    margin-left: 21rem;
+    width: 38rem;
+    height: 42rem;
+    margin-left: 21.5rem;
+  }
+  .free-mixtapes1 {
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
+  }
+
+  .subscribe {
+    width: 37rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 32rem;
+    height: 20rem;
+    margin-left: 3rem;
   }
 
   .form-paragraph {
-    font-size: 1.3rem;
+    height: 22rem;
+    font-size: 1.7rem;
+  }
+  .preview-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 42%;
+    font-size: 1rem;
   }
 }
-/* BELOW 408px(for smaller desktop screen size */
+
+/* BELOW 408px(for phone screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 26em) {
+  .header-up h2 {
+    line-height: 1.2;
+    text-align: center;
+  }
+  .eko-hot {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .btn2 {
+    top: 5rem;
+    right: 1rem;
+  }
+  .logo {
+    margin-left: -1rem;
+    height: 4rem;
+    width: 6rem;
+  }
+  .nav-bar {
+    font-size: 1.8rem;
+  }
+  .carousel img {
+    grid-template-columns: 1fr;
+    width: 35rem;
+    height: 30rem;
+  }
   .photo---play {
     margin-left: 22rem;
     width: 35rem;
   }
   .text {
     width: 35rem;
-    height: 40rem;
+    height: 41.5rem;
     margin-left: 22rem;
   }
+  .btnhome--big {
+    font-size: 1.5rem;
+    margin-top: -4rem;
+  }
   .ekos-play {
-    height: 13rem;
-    width: 16rem;
+    height: 25rem;
+    width: 30rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
@@ -1340,10 +1905,22 @@ Instead, 1rem = 1em =16px*/
     height: 17rem;
     margin-left: 3rem;
   }
-  .subheading,
+  .album-title {
+    margin-left: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .album-titlez {
+    margin-left: 4rem;
+    font-size: 2.5rem;
+  }
+  .subheading {
+    margin-left: 4rem;
+    font-size: 2.5rem;
+  }
   .heading-secondary {
     margin-left: 4rem;
-    font-size: 1.2rem;
+    font-size: 2.3rem;
   }
   .ekothebeat,
   .play-list {
@@ -1352,11 +1929,17 @@ Instead, 1rem = 1em =16px*/
     height: 45rem;
   }
   .list {
+    width: 35rem;
     margin-left: 3rem;
+    height: 43rem;
+    gap: 1rem;
   }
   .heading---tertiaries {
     margin-left: 5rem;
     font-size: 1.6rem;
+  }
+  .tag--eko {
+    margin-left: 2rem;
   }
   .free-mixtapes1 {
     font-size: 1.5rem;
@@ -1368,44 +1951,80 @@ Instead, 1rem = 1em =16px*/
   }
   .texts {
     width: 36rem;
-    height: 44rem;
+    height: 48.5rem;
     margin-left: 21.5rem;
+  }
+  .buttoneko:link,
+  .buttoneko:visited {
+    width: 20rem;
   }
   .container-paragraph {
     font-size: 1.6rem;
     margin-top: -1rem;
   }
   .form-paragraph {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin-top: 23rem;
+    height: 31.2rem;
   }
   .subscribe {
     font-size: 1.1rem;
+    width: 36rem;
+  }
+  form.form-section {
+    width: 38rem;
+    box-shadow: 0 5rem 7rem rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+  }
+  .preview-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 43%;
+    font-size: 1rem;
   }
 }
-/* BELOW 390px(for smaller desktop screen size */
+
+/* BELOW 390px(for phone screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 25em) {
-  .head-nav {
-    /* background-color: red; */
+  .header-up h2 {
+    line-height: 1.2;
+    text-align: center;
+  }
+  .eko-hot {
+    padding-right: 1rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .btn2 {
+    top: 5rem;
+    right: 1rem;
   }
   .wrapper {
-    max-width: 35rem;
+    max-width: 30rem;
   }
   .carousel img {
     grid-template-columns: 1fr;
     width: 35rem;
     height: 30rem;
   }
+  .ekos-play {
+    height: 25rem;
+    width: 33rem;
+  }
   .subheading,
   .heading-secondary {
     margin-left: 4rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .ekothebeat,
   .play-list {
-    width: 34rem;
+    width: 30rem;
     margin-right: 5rem;
+    margin-left: 3rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
@@ -1423,7 +2042,13 @@ Instead, 1rem = 1em =16px*/
   }
   .album-title,
   .album-titlez {
-    margin-left: 5rem;
+    margin-left: 2rem;
+  }
+  .list {
+    margin-left: 3rem;
+    height: 43rem;
+    gap: 1rem;
+    width: 30rem;
   }
   .buttonhomes:link,
   .buttonhomes:visited,
@@ -1442,7 +2067,7 @@ Instead, 1rem = 1em =16px*/
   }
   .text {
     width: 35rem;
-    height: 40rem;
+    height: 42rem;
     margin-left: 21rem;
   }
   .photo----play {
@@ -1452,17 +2077,43 @@ Instead, 1rem = 1em =16px*/
   }
   .texts {
     width: 36rem;
-    height: 44rem;
+    height: 49rem;
     margin-left: 20.5rem;
   }
+  form.form-section,
+  .form-text {
+    width: 35rem;
+  }
+
+  .subscribe {
+    font-size: 1.5rem;
+    width: 33rem;
+  }
+  .form-paragraph {
+    font-size: 2rem;
+    margin-top: 23rem;
+    height: 34rem;
+  }
+  .footer-text {
+    font-size: 1rem;
+}
+button {
+
+  width: 70px;
+ 
+}
+#album-cover {
+  width: 70px;
+  
+}
+#waveform {
+  width: 20rem;
+}
 }
 /* BELOW 378px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 24em) {
-  .head-nav {
-    /* background-color: red; */
-  }
   .carousel img {
     width: 32rem;
     height: 25rem;
@@ -1471,11 +2122,12 @@ Instead, 1rem = 1em =16px*/
     max-width: 32rem;
   }
   .photo---play {
-    margin-left: 20.4rem;
+    width: 30rem;
+    margin-left: 22.5rem;
   }
   .text {
     width: 30rem;
-    height: 47rem;
+    height: 49rem;
     margin-left: 23rem;
   }
   .displays-grids {
@@ -1484,14 +2136,32 @@ Instead, 1rem = 1em =16px*/
   }
   .ekos-play {
     height: 20rem;
-    width: 32rem;
+    width: 30rem;
+    margin-left: 1.2rem;
+  }
+  .subheading {
+    margin-left: 4rem;
+    font-size: 2rem;
   }
   .heading-secondary {
     margin-left: 4rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
   }
-  .list {
-    margin-left: 2rem;
+  .taking-it-home-img,
+  .coming-soon-img {
+    width: 29rem;
+    height: 17rem;
+    margin-left: 2.5rem;
+  }
+
+  .album-title {
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+  .album-titlez {
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
   .ekothebeat,
   .play-list {
@@ -1504,26 +2174,22 @@ Instead, 1rem = 1em =16px*/
   .buttonhomes:link,
   .buttonhomes:visited {
     width: 15rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     font-size: 1.3rem;
   }
   .buttonz:link,
   .buttonz:visited {
     width: 15rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     font-size: 1.1rem;
   }
-  .album-title,
-  .album-titlez {
-    margin-left: 5rem;
-    margin-top: 2rem;
-  }
+
   .list {
     margin-left: 2rem;
     width: 30rem;
   }
   .heading---tertiaries {
-    margin-left: 4rem;
+    margin-left: 2rem;
     font-size: 1.6rem;
   }
   .free-mixtapes1 {
@@ -1534,7 +2200,7 @@ Instead, 1rem = 1em =16px*/
   }
   .texts {
     width: 33rem;
-    height: 50rem;
+    height: 54rem;
     margin-left: 21.5rem;
   }
   .buttoneko:link,
@@ -1545,22 +2211,32 @@ Instead, 1rem = 1em =16px*/
     margin-left: -1rem;
   }
   .subscribe {
+    width: 32.5rem;
     font-size: 1rem;
   }
-
+  form.form-section {
+    width: 34rem;
+  }
   .form-paragraph {
     font-size: 1.1rem;
   }
   .button-submit[type="submit"] {
     font-size: 1.7rem;
   }
+  .form-paragraph {
+    height: 15rem;
+    font-size: 1.2rem;
+  }
 }
+
 /* BELOW 362px(for smaller desktop screen size */
 
 /* RESPONSIVE SECTION */
 @media (max-width: 23em) {
-  .head-nav {
-    /* background-color: red; */
+  .eko-hot {
+    padding-right: 1rem;
+    padding-top: 2rem;
+    font-size: 1.4rem;
   }
   .carousel img {
     width: 32rem;
@@ -1573,7 +2249,7 @@ Instead, 1rem = 1em =16px*/
   }
   .text {
     width: 30rem;
-    height: 47rem;
+    height: 48.5rem;
     margin-left: 22rem;
   }
   .btnhome--big {
@@ -1583,82 +2259,40 @@ Instead, 1rem = 1em =16px*/
   }
   .ekos-play {
     height: 19rem;
-    width: 30rem;
-  }
-  .subheading,
-  .heading-secondary {
-    margin-left: 3rem;
-    font-size: 1.2rem;
-  }
-  .taking-it-home-img,
-  .coming-soon-img {
-    width: 27rem;
-    height: 17rem;
-    margin-left: 3rem;
-  }
-  .eko-tags {
-    margin-left: -1rem;
-    margin-top: 1rem;
-  }
-  .buttonhomes:link,
-  .buttonhomes:visited {
-    width: 15rem;
-    margin-left: 4rem;
-    font-size: 1.3rem;
-  }
-  .photo----play {
-    width: 31rem;
-  }
-  .texts {
-    width: 31rem;
-    height: 52rem;
-    margin-left: 21.5rem;
-  }
-}
-/* BELOW 362px(for smaller desktop screen size */
-
-/* RESPONSIVE SECTION */
-@media (max-width: 23em) {
-  .head-nav {
-    /* background-color: red; */
-  }
-  .carousel img {
-    width: 32rem;
-    height: 25rem;
-  }
-  .photo---play {
     width: 29rem;
-    height: 20rem;
-    margin-left: 23rem;
   }
-  .text {
+  .ekothebeat,
+  .play-list {
     width: 30rem;
-    height: 47rem;
-    margin-left: 22rem;
-  }
-  .btnhome--big {
-    font-size: 1rem;
-    margin-top: -4rem;
-    margin-left: -1rem;
-  }
-  .ekos-play {
-    height: 19rem;
-    width: 30rem;
+    margin-right: 2rem;
   }
   .subheading,
   .heading-secondary {
+    padding-right: 2rem;
     margin-left: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
     width: 27rem;
     height: 17rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
+  }
+  .eko-content {
+    margin-left: -2rem;
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
   }
   .eko-tags {
     margin-left: -1rem;
     margin-top: 1rem;
+  }
+  .list {
+    margin-left: -2rem;
+    width: 30rem;
+  }
+  .heading---tertiaries {
+    margin-left: 1rem;
+    font-size: 1.6rem;
   }
   .buttonhomes:link,
   .buttonhomes:visited {
@@ -1671,8 +2305,20 @@ Instead, 1rem = 1em =16px*/
   }
   .texts {
     width: 31rem;
-    height: 52rem;
+    height: 55rem;
     margin-left: 21.5rem;
+  }
+  form.form-section,
+  .form-text {
+    width: 32rem;
+  }
+  .form-paragraph {
+    height: 20rem;
+    font-size: 1.5rem;
+  }
+  .subscribe {
+    width: 30rem;
+    font-size: 1rem;
   }
 }
 
@@ -1693,12 +2339,17 @@ Instead, 1rem = 1em =16px*/
   .ekothebeat,
   .play-list {
     width: 30rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
   }
   .subheading,
   .heading-secondary {
     margin-left: 3rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    padding-right: 4rem;
+  }
+  .eko-content {
+    margin-left: 0rem;
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
@@ -1708,20 +2359,53 @@ Instead, 1rem = 1em =16px*/
   }
   .album-title,
   .album-titlez {
-    margin-left: 4rem;
+    margin-left: 1rem;
     margin-top: 2rem;
+  }
+  .list {
+    margin-left: -1rem;
+    width: 30rem;
+  }
+  .eko-tags {
+    margin-left: -4rem;
+    margin-top: 1rem;
+  }
+  .tag--eko {
+    margin-right: 1rem;
   }
   .free-mixtapes1 {
     font-size: 1.2rem;
   }
   .subscribe {
-    font-size: 0.9rem;
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+  form.form-section {
+    width: 32rem;
   }
   .form-paragraph {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: -3rem;
+    height: 24rem;
   }
   .form-label {
+    font-size: 1rem;
+  }
+  .ekos-play {
+    height: 19rem;
+
+    width: 28rem;
+  }
+  .text {
+    height: 50rem;
+  }
+  .texts {
+    width: 31rem;
+    height: 55rem;
+    margin-left: 20.6rem;
+  }
+  .subscribe {
+    width: 30rem;
     font-size: 1rem;
   }
 }
@@ -1806,8 +2490,9 @@ Instead, 1rem = 1em =16px*/
 
 /* BELOW 336px(for smaller desktop screen size */
 @media (max-width: 20em) {
-  .head-nav {
-    /* background-color: red; */
+  .eko-hot {
+    padding-top: 2rem;
+    font-size: 1.3rem;
   }
   .wrapper {
     max-width: 25rem;
@@ -1828,19 +2513,29 @@ Instead, 1rem = 1em =16px*/
     height: 19rem;
     width: 25rem;
   }
+  .heading---tertiaries {
+    margin-left: 4rem;
+    font-size: 1.3rem;
+  }
+  .ekothebeat,
+  .play-list {
+    width: 28rem;
+    margin-right: 2rem;
+  }
   .subheading {
     margin-left: 4rem;
     font-size: 2rem;
   }
   .heading-secondary {
+    padding-right: 3rem;
     margin-left: 4rem;
-    font-size: 0.6rem;
+    font-size: 1.5rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
+    margin-left: 3.5rem;
     width: 24rem;
     height: 17rem;
-    margin-left: rem;
   }
   .list {
     margin-left: 2rem;
@@ -1848,6 +2543,16 @@ Instead, 1rem = 1em =16px*/
   }
   .list-item {
     font-size: 1.8rem;
+  }
+  .album-title {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: -4rem;
+  }
+  .album-titlez {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 2.1rem;
   }
   .free-mixtapes {
     font-size: 1.6rem;
@@ -1867,17 +2572,34 @@ Instead, 1rem = 1em =16px*/
     width: 26rem;
     height: 20rem;
   }
+  .text {
+    width: 27rem;
+    height: 58rem;
+    margin-left: 21rem;
+  }
   .texts {
     width: 26rem;
-    height: 68rem;
+    height: 69rem;
     margin-left: 21.5rem;
   }
+  form.form-section {
+    width: 29rem;
+  }
+  .form {
+    margin-left: -1rem;
+    margin-bottom: 3rem;
+  }
   .form-paragraph {
-    font-size: 0.8rem;
+    height: 20rem;
+    font-size: 1.2rem;
     margin-bottom: -3rem;
   }
   .button-submit[type="submit"] {
     font-size: 1.4rem;
+  }
+  .subscribe {
+    width: 27rem;
+    font-size: 1.5rem;
   }
 }
 /* BELOW 306px(for smaller desktop screen size */
@@ -1920,8 +2642,27 @@ Instead, 1rem = 1em =16px*/
 
 /* BELOW 280px(for smaller desktop screen size */
 @media (max-width: 18em) {
-  .head-nav {
-    /* background-color: red; */
+  .eko-hot {
+    padding-top: 2rem;
+    font-size: 1rem;
+  }
+  .headerbutton--big {
+    width: 10rem;
+
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .btn2 {
+    top: 4rem;
+    right: 2rem;
+  }
+  .logo {
+    margin-left: -1rem;
+    height: 4rem;
+    width: 6rem;
+  }
+  .nav-bar {
+    font-size: 1.5rem;
   }
   .wrapper {
     max-width: 24rem;
@@ -1935,34 +2676,40 @@ Instead, 1rem = 1em =16px*/
   }
   .text {
     width: 24rem;
-    height: 61rem;
+    height: 63rem;
     margin-left: 21rem;
   }
   .ekos-play {
     height: 17rem;
-    width: 22rem;
+    width: 21rem;
+  }
+  .subheading {
+    margin-left: 3rem;
+    font-size: 2rem;
   }
   .heading-secondary {
     margin-left: 3rem;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
   }
   .taking-it-home-img,
   .coming-soon-img {
     width: 19rem;
     height: 15rem;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
   }
+  .eko-content {
+    height: 40rem;
+    margin-left: 0rem;
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+
   .album-title,
   .album-titlez {
     margin-left: 1rem;
     margin-top: 2rem;
     font-size: 1.7rem;
   }
-  .ekothebeat,
-  .play-list {
-    width: 23rem;
-    /* margin-right: 2rem; */
-  }
+
   .eko-tags {
     margin-left: -5rem;
     margin-top: 1rem;
@@ -1971,9 +2718,53 @@ Instead, 1rem = 1em =16px*/
     margin-right: -1rem;
     font-size: 1.5rem;
   }
+  .buttonhomes:link,
+  .buttonhomes:visited,
+  .buttonz:link,
+  .buttonz:visited {
+    margin-left: -1rem;
+  }
+  .heading---tertiaries {
+    margin-left: 3rem;
+    font-size: 1.1rem;
+  }
+  .ekothebeat {
+    width: 23rem;
+    margin-right: -1rem;
+  }
+  .list {
+    gap: 1rem;
+    margin-left: -1rem;
+    width: 23rem;
+    height: 42rem;
+  }
   .list-item {
     font-size: 1.5rem;
   }
+  .form-section {
+    width: 26rem;
+  }
+  .subscribe {
+    width: 25rem;
+  }
+  form.form-section {
+    width: 27rem;
+  }
+  
+  .form-paragraph {
+    height: 29rem;
+    font-size: 1.4rem;
+    margin-bottom: -3rem;
+    /* margin-left: -1rem; */
+  }
+  .form-text {
+    margin-left: 0.5rem;
+    width: 26rem;
+}
+  .form {
+    margin-left: -1.5rem;
+    margin-bottom: 3rem;
+}
   .free-mixtapes1 {
     font-size: 0.9rem;
   }
@@ -1983,7 +2774,28 @@ Instead, 1rem = 1em =16px*/
   }
   .texts {
     width: 23rem;
-    height: 72rem;
+    height: 79rem;
     margin-left: 21.5rem;
+  }
+  .footer-text {
+    font-size: 0.6rem;
+  }
+ 
+  #waveform {
+    width: 10rem;
+    height: 1px;
+    left: 0px;
+    margin-bottom: 3rem;
+  
+}
+.volume-control {
+  margin-left: -1rem;
+}
+.volume-control input[type="range"] {
+  width: 40%;
+  margin: 5px;
+  margin-left: -3rem;
+
+}
   }
 }

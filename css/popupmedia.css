@@ -1,0 +1,12 @@
+/* rem and em do not depent html font size in media quaries. 
+Instead, 1rem = 1em =16px*/
+
+/* BELOW 1029px(for smaller desktop screen size */
+
+/* RESPONSIVE SECTION */
+@media (max-width: 67em) {
+  .buttonhomes:link,
+  .buttonhomes:visited {
+    width: 60%;
+  }
+}

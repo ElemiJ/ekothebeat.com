@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    
-<script
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
     ></script>
@@ -18,11 +21,12 @@
 
     <title>Notification Popup</title>
     <link rel="stylesheet" href="css/popups.css" />
+    <link rel="stylesheet" href="css/popupmedia.css" />
   </head>
   <body>
     <header class="header">
       <div class="head-nav">
-        <a href="#">
+        <a href="eko.html">
           <img
             class="logo"
             alt="Ekothebeat logo"
@@ -48,28 +52,27 @@
         <mark class="no-code">Journey of faith and joy.</mark>
       </p>
       <div class="photo-container">
-        <img id="myImage" src="img/eko-9.png" alt="Your Image">
+        <img id="myImage" src="img/eko-9.png" alt="Your Image" />
         <div class="photo-play-btn">
-            <ion-icon id="playButton" name="play-outline"></ion-icon>
+          <ion-icon id="playButton" name="play-outline"></ion-icon>
         </div>
+      </div>
+      <audio id="myAudio">
+        <source src="media/ekosong.mp3" type="audio/mp3" />
+      </audio>
     </div>
-    <audio id="myAudio">
-        <source src="media/ekosong.mp3" type="audio/mp3">
-    </audio>
-    </div>
-    
+
     <div class="popup" id="popup">
       <!-- <p>Thank you for your purchase!</p> -->
       <p>
         <span id="customername">Jennifer Elemi from Nigeria</span>
       </p>
       <p>
-        <span id="purchase-album">Purchased the Taking Home Album
+        <span id="purchase-album">Purchased the Taking Home Album</span>
       </p>
       <p>
-        <span id="purchaseTime">27 minutes ago</span> 
+        <span id="purchaseTime">27 minutes ago</span>
       </p>
-      
     </div>
 
     <section>
@@ -77,108 +80,149 @@
         <div class="grid-item">
           <ul class="list">
             <li class="list--items">
-              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Experience the divine fusion of faith and Afrobeat rhythms in "Taking It Home</li>
-             <li class="list--items"> <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Let EkoTheBeat's album infuse your day with gospel joy and Afrobeat energy.</li>
-            <li class="list--items">  <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Celebrate unity through the harmonious blend of Christian and Afrobeat sounds.</li>
-            <li class="list--items">  <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>Elevate your spirit with the soul-nourishing melodies of "Taking It Home.</li>
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon
+              >Experience the divine fusion of faith and Afrobeat rhythms in
+              "Taking It Home"
+            </li>
+            <li class="list--items">
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon
+              >Let EkoTheBeat's album infuse your day with gospel joy and
+              Afrobeat energy.
+            </li>
+            <li class="list--items">
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon
+              >Celebrate unity through the harmonious blend of Christian and
+              Afrobeat sounds.
+            </li>
+            <li class="list--items">
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon
+              >Elevate your spirit with the soul-nourishing melodies of "Taking
+              It Home."
+            </li>
           </ul>
         </div>
         <div class="grid-item">
           <ul class="list">
             <li class="list--items">
-              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
-              <span>Get inspired by the album that bridges genres and brings faith to life.</span>
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon>
+              <span
+                >Get inspired by the album that bridges genres and brings faith
+                to life.</span
+              >
             </li>
             <li class="list--items">
-              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
-              <span>Immerse yourself in the uplifting beats of EkoTheBeat's Afrobeat gospel fusion.</span>
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon>
+              <span
+                >Immerse yourself in the uplifting beats of EkoTheBeat's
+                Afrobeat gospel fusion.</span
+              >
             </li>
             <li class="list--items">
-              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
-              <span>Connect globally through the album that transcends borders with its vibrant melodies.</span>
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon>
+              <span
+                >Connect globally through the album that transcends borders with
+                its vibrant melodies.</span
+              >
             </li>
             <li class="list--items">
-              <ion-icon class="list--icons"name="list-circle-outline"></ion-icon>
-              <span>Let the album be your soundtrack for faith, culture, and musical celebration.</span>
+              <ion-icon
+                class="list--icons"
+                name="list-circle-outline"
+              ></ion-icon>
+              <span
+                >Let the album be your soundtrack for faith, culture, and
+                musical celebration.</span
+              >
             </li>
           </ul>
-         <div class="btnclick">
-          <a class="buttonhomes buttonhomes--big" href="#">Get The Album Now→</a>
-         </div>
+          <div class="btnclick">
+            <a class="buttonhomes buttonhomes--big" href="#"
+              >Get The Album Now→</a
+            >
+          </div>
         </div>
-       
-        
       </div>
-        
     </section>
 
-  
-  
-   
+    <footer></footer>
 
-  <!-- JavaScript -->
-    <script src="script.js"></script>
+    <!-- JavaScript -->
     <script>
-       const playButton = document.getElementById('playButton');
-    const audio = document.getElementById('myAudio');
-    const image = document.getElementById('myImage');
+      const playButton = document.getElementById("playButton");
+      const audio = document.getElementById("myAudio");
+      const image = document.getElementById("myImage");
 
-    playButton.addEventListener('click', () => {
+      playButton.addEventListener("click", () => {
         if (audio.paused) {
-            audio.play();
-           
+          audio.play();
         } else {
-            audio.pause();
-            image.style.opacity = 1; // Example: Restoring image opacity when paused
+          audio.pause();
+          image.style.opacity = 1; // Example: Restoring image opacity when paused
         }
-    });
+      });
 
+      // START
+      const popup = document.getElementById("popup");
+      const customerName = document.getElementById("customername"); // Add this line
 
-    // START
-     const popup = document.getElementById("popup");
+      const names = [
+        "Jennifer Elemi from Nigeria",
+        "John Smith from USA",
+        "Worthy Tim from Spain",
+        "Alex Wang from China",
+        // users names here
+      ];
 
-    const names = [
-    "Jennifer Elemi from Nigeria",
-    "John Smith from USA",
-    "Worthy Tim from Spain",
-   "Alex Wang from China"
-  // users names here
-];
+      const intervals = [
+        5000, // 5 seconds
+        8000, // 8 seconds
+        3000, // 3 seconds
+        6000, // 6 seconds
+        // Time intervals here
+      ];
 
-const intervals = [
-  5000, // 5 seconds
-  8000, // 8 seconds
-  3000, // 3 seconds
-  6000  // 6 seconds
-  // Time intervals here
-];
+      let currentIndex = 0;
 
-let currentIndex = 0;
+      function showPopup(name) {
+        customerName.textContent = name; // Update the content here
+        popup.style.bottom = "0";
+        setTimeout(() => hidePopup(), intervals[currentIndex]); // Hide after the specified interval
+      }
 
-function showPopup(name) {
-  const customerName = document.getElementById("customername");
-  customerName.textContent = name;
-  popup.style.bottom = "0";
-  setTimeout(() => hidePopup(), intervals[currentIndex]); // Hide after the specified interval
-}
+      function hidePopup() {
+        popup.style.bottom = "-100px";
+        currentIndex = (currentIndex + 1) % names.length;
+        setTimeout(() => cyclePopups(), 1000); // Show the next popup after 1 second
+      }
 
-function hidePopup() {
-  popup.style.bottom = "-100px";
-  currentIndex = (currentIndex + 1) % names.length;
-  setTimeout(() => cyclePopups(), 1000); // Show the next popup after 1 second
-}
+      function cyclePopups() {
+        const name = names[currentIndex];
+        showPopup(name);
+      }
 
-function cyclePopups() {
-  const name = names[currentIndex];
-  showPopup(name);
-}
-
-// Start the popup cycle when the page loads
-cyclePopups();
-
-
-
+      // Start the popup cycle when the page loads
+      cyclePopups();
     </script>
-    
   </body>
 </html>

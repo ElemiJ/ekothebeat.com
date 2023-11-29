@@ -49,6 +49,19 @@ body {
 
 /* COUNT DOWN SECTION */
 
+/* COUNT DOWN SECTION */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background: linear-gradient(45deg, #08001f, #30197d);
+}
+
+.grid-item {
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+}
+
 .butt__1:link,
 .butt__1:visited {
   background-color: #cf711f;
@@ -69,18 +82,22 @@ body {
   font-size: 14px;
   padding: 16px 3px;
   margin-right: -2rem;
-  margin-left: 22rem;
-  margin-top: 1rem;
+  margin-left: 12rem;
+  margin-top: 1.5rem;
   text-align: center;
   font-style: normal;
   align-items: center;
   width: 12rem;
 }
-
+.img-section {
+  width: 33rem;
+  height: 18rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
 .countdown-section {
   width: 100%;
-  min-height: 65vh;
-  background: linear-gradient(45deg, #08001f, #30197d);
+  height: 75vh;
   color: #fff;
   position: relative;
 }
@@ -88,16 +105,16 @@ body {
 .countdown-percent {
   color: #fff;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
 .countdown-div {
-  width: 900px;
+  width: 580px;
   height: 180px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 50rem;
   transform: translate(-50%, -50%);
 }
 
@@ -137,7 +154,7 @@ body {
 }
 
 .countdown span {
-  font-size: 60px;
+  font-size: 55px;
   width: 110px;
   display: inline-block;
   text-align: center;
@@ -151,7 +168,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-
 #days::after {
   content: "DAYS";
 }
